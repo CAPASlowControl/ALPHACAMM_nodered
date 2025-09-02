@@ -1672,7 +1672,7 @@
         "type": "function",
         "z": "4b16d557cb3dbbdc",
         "name": "BK-ELPRESS Press 2 Meas ",
-        "func": "var output = msg.payload;\nvar hexword;\nvar hexString;\n\nvar outputInt = parseInt(output);\nif (outputInt == 0){\n    hexString =0\n}else {\nhexword = Math.round(outputInt*32000/1500);\nhexString = hexword.toString(16);\n}\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = {payload : str2};\n\nreturn [msg];\n\n",
+        "func": "var output = parseInt(msg.payload);\nvar hexword;\nvar hexString;\n\n\nhexword = Math.round(output * 32000 / 10);\nhexString = hexword.toString(16);\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = { payload: str2 };\n\nreturn [msg];",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
