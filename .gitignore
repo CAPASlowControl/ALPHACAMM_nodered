@@ -1,1 +1,12 @@
-*
+certs  
+lib  
+node_modules  
+package.json  
+package-lock.json  
+public 
+settings.js  
+settings.js.old  
+settings.js.orig  
+token
+.*
+

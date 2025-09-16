@@ -458,7 +458,9 @@
             "46a090a54f64e001",
             "29580ea305f6b5f0",
             "5efd8e76c04f0d1f",
-            "099ec00258900658"
+            "099ec00258900658",
+            "25adf8931ee348a7",
+            "c839a8a03959c8d4"
         ],
         "x": 94,
         "y": 79,
@@ -1173,11 +1175,13 @@
             "a397c0f7c4b399d3",
             "c938e49bb636c33d",
             "9960fc4ea5d93bd5",
-            "478072d4618e9d29"
+            "478072d4618e9d29",
+            "092a253f2635b5b6",
+            "95d015dab0ebb7fc"
         ],
         "x": 134,
         "y": 1399,
-        "w": 672,
+        "w": 712,
         "h": 302
     },
     {
@@ -1196,11 +1200,13 @@
             "f9af905c2f91729c",
             "9135e640027358db",
             "7752b0f732a82cf5",
-            "9fe638383aba7f12"
+            "9fe638383aba7f12",
+            "f76e5e4af33ebec2",
+            "d4ff750be88e356e"
         ],
         "x": 874,
         "y": 1399,
-        "w": 672,
+        "w": 772,
         "h": 302
     },
     {
@@ -1219,11 +1225,13 @@
             "24c05e7d0bd68526",
             "da6cc32f0fb749d6",
             "74f16ae54f5274dd",
-            "65fd3cc426b1c0b0"
+            "65fd3cc426b1c0b0",
+            "323dfa330209bb78",
+            "f57ae8f24c7c04b7"
         ],
         "x": 94,
         "y": 339,
-        "w": 672,
+        "w": 752,
         "h": 302
     },
     {
@@ -1242,11 +1250,13 @@
             "2186de6e6f7c0d2f",
             "c3da1cacf5c1a1e7",
             "91eeef313d77afaa",
-            "14712243d9cccdb6"
+            "14712243d9cccdb6",
+            "d265691face9de78",
+            "c4d31af94c2ed541"
         ],
-        "x": 834,
+        "x": 934,
         "y": 339,
-        "w": 672,
+        "w": 752,
         "h": 302
     },
     {
@@ -1265,11 +1275,13 @@
             "51874f73f92e9253",
             "911790f9232870d5",
             "88bc512c0894fb93",
-            "6b220883d45679d9"
+            "6b220883d45679d9",
+            "38e3743705860b2c",
+            "1cd04ebe7b0881f3"
         ],
         "x": 94,
         "y": 579,
-        "w": 672,
+        "w": 792,
         "h": 302
     },
     {
@@ -2652,7 +2664,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 630,
+        "x": 670,
         "y": 260,
         "wires": []
     },
@@ -5331,7 +5343,8 @@
         "y": 1520,
         "wires": [
             [
-                "478072d4618e9d29"
+                "478072d4618e9d29",
+                "95d015dab0ebb7fc"
             ]
         ]
     },
@@ -5520,7 +5533,8 @@
         "y": 1520,
         "wires": [
             [
-                "9fe638383aba7f12"
+                "9fe638383aba7f12",
+                "d4ff750be88e356e"
             ]
         ]
     },
@@ -5639,6 +5653,94 @@
         "wires": []
     },
     {
+        "id": "092a253f2635b5b6",
+        "type": "debug",
+        "z": "d72f43198c705066",
+        "g": "131e42772e5fe62d",
+        "name": "BRK_S2_Con",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"S2 Bronkhorst FCtrl Not Connected\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "95d015dab0ebb7fc",
+        "type": "switch",
+        "z": "d72f43198c705066",
+        "g": "131e42772e5fe62d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "green",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 1580,
+        "wires": [
+            [
+                "092a253f2635b5b6"
+            ]
+        ]
+    },
+    {
+        "id": "f76e5e4af33ebec2",
+        "type": "debug",
+        "z": "d72f43198c705066",
+        "g": "7560b9314c8a7f2b",
+        "name": "BRK_S3_Con",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"S3 Bronkhorst PCtrl Not Connected\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1520,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "d4ff750be88e356e",
+        "type": "switch",
+        "z": "d72f43198c705066",
+        "g": "7560b9314c8a7f2b",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "green",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1370,
+        "y": 1580,
+        "wires": [
+            [
+                "f76e5e4af33ebec2"
+            ]
+        ]
+    },
+    {
         "id": "33885c4236198a1d",
         "type": "inject",
         "z": "732d4141e04e5e35",
@@ -5676,11 +5778,11 @@
         "g": "e1f43c1f5556e7e3",
         "name": "THY-S1",
         "serial": "c20705c78add4417",
-        "x": 440,
+        "x": 420,
         "y": 140,
         "wires": [
             [
-                "6a09f329e0035bc2"
+                "25adf8931ee348a7"
             ]
         ]
     },
@@ -5710,11 +5812,11 @@
         "g": "e1f43c1f5556e7e3",
         "name": "THY-S4",
         "serial": "3cb07f3e2ef650dc",
-        "x": 440,
+        "x": 420,
         "y": 240,
         "wires": [
             [
-                "09ade00e68ba62d6"
+                "c839a8a03959c8d4"
             ]
         ]
     },
@@ -5953,7 +6055,8 @@
         "y": 460,
         "wires": [
             [
-                "65fd3cc426b1c0b0"
+                "65fd3cc426b1c0b0",
+                "f57ae8f24c7c04b7"
             ]
         ]
     },
@@ -6078,7 +6181,7 @@
         "g": "22573f686a57da42",
         "name": "",
         "serial": "3cb07f3e2ef650dc",
-        "x": 950,
+        "x": 1050,
         "y": 380,
         "wires": [
             [
@@ -6104,7 +6207,7 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 1120,
+        "x": 1220,
         "y": 380,
         "wires": []
     },
@@ -6117,7 +6220,7 @@
         "scope": [
             "9cfec854a5ba4669"
         ],
-        "x": 990,
+        "x": 1090,
         "y": 460,
         "wires": [
             [
@@ -6138,11 +6241,12 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1230,
+        "x": 1330,
         "y": 460,
         "wires": [
             [
-                "14712243d9cccdb6"
+                "14712243d9cccdb6",
+                "c4d31af94c2ed541"
             ]
         ]
     },
@@ -6153,7 +6257,7 @@
         "g": "22573f686a57da42",
         "name": "",
         "serial": "3cb07f3e2ef650dc",
-        "x": 1170,
+        "x": 1270,
         "y": 580,
         "wires": [
             []
@@ -6180,7 +6284,7 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 970,
+        "x": 1070,
         "y": 560,
         "wires": [
             [
@@ -6209,7 +6313,7 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 990,
+        "x": 1090,
         "y": 600,
         "wires": [
             [
@@ -6256,9 +6360,151 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 1430,
+        "x": 1530,
         "y": 460,
         "wires": []
+    },
+    {
+        "id": "25adf8931ee348a7",
+        "type": "switch",
+        "z": "732d4141e04e5e35",
+        "g": "e1f43c1f5556e7e3",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 515,
+        "y": 140,
+        "wires": [
+            [
+                "6a09f329e0035bc2"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "c839a8a03959c8d4",
+        "type": "switch",
+        "z": "732d4141e04e5e35",
+        "g": "e1f43c1f5556e7e3",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 505,
+        "y": 240,
+        "wires": [
+            [
+                "09ade00e68ba62d6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "323dfa330209bb78",
+        "type": "debug",
+        "z": "732d4141e04e5e35",
+        "g": "82f7b66e730a8ab9",
+        "name": "THY_S1_Con",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"S1 Thyracont Not Connected\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "f57ae8f24c7c04b7",
+        "type": "switch",
+        "z": "732d4141e04e5e35",
+        "g": "82f7b66e730a8ab9",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "green",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 520,
+        "wires": [
+            [
+                "323dfa330209bb78"
+            ]
+        ]
+    },
+    {
+        "id": "d265691face9de78",
+        "type": "debug",
+        "z": "732d4141e04e5e35",
+        "g": "22573f686a57da42",
+        "name": "THY_S4_Con",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"S4 Thyracont Not Connected\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1560,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "c4d31af94c2ed541",
+        "type": "switch",
+        "z": "732d4141e04e5e35",
+        "g": "22573f686a57da42",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "green",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1410,
+        "y": 520,
+        "wires": [
+            [
+                "d265691face9de78"
+            ]
+        ]
     },
     {
         "id": "9ba2e3662c0d653e",
@@ -7009,7 +7255,8 @@
         "y": 700,
         "wires": [
             [
-                "6b220883d45679d9"
+                "6b220883d45679d9",
+                "38e3743705860b2c"
             ]
         ]
     },
@@ -7126,6 +7373,50 @@
         "x": 690,
         "y": 700,
         "wires": []
+    },
+    {
+        "id": "1cd04ebe7b0881f3",
+        "type": "debug",
+        "z": "f90d957cc2f3e107",
+        "g": "34bbe7b98151095d",
+        "name": "UC_Con",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "\"UC Not Connected\"",
+        "targetType": "jsonata",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "38e3743705860b2c",
+        "type": "switch",
+        "z": "f90d957cc2f3e107",
+        "g": "34bbe7b98151095d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "green",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 760,
+        "wires": [
+            [
+                "1cd04ebe7b0881f3"
+            ]
+        ]
     },
     {
         "id": "bafb614786782f29",
