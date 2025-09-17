@@ -21,8 +21,10 @@ for line in Idr:
     if pid in line:
         y_str = line.split()[5]
         y_str = y_str.replace("m","").replace("g","E3")
+        y_str = y_str.replace(",",".")
         yy = np.append( yy,  float( y_str ) )      
 #for
+Idr.close()
     
 n = yy.shape[0]
 
