@@ -492,7 +492,6 @@
             "c7f0248feb6628e0",
             "91e16b60c6bc0bbc",
             "aba3398a30a292e1",
-            "1413e9c2edf329ee",
             "04a25e6f8df7f216",
             "bf27825b23c8f994",
             "6d94b13e3a7b924c",
@@ -549,13 +548,12 @@
             "f7ae3dec57c5ad9c",
             "dc568bf04687de5f",
             "fb5854d1f0afd64d",
-            "5c308f756e7ad9f5",
             "5edf8ce8dd2d4b0d"
         ],
         "x": 1584,
         "y": 399,
-        "w": 782,
-        "h": 162,
+        "w": 712,
+        "h": 82,
         "info": "This group catches the errors in all the nodes of the flow. \nSecuruty function only makes the msg earier and Trim topic is to eliminate /dev/. \nCopy the group to add security in others flows. \nNOTE: Remember to change link out end.\n\n\nHere we only select subflows becouse they trigger the errors in these devices. "
     },
     {
@@ -570,13 +568,12 @@
             "05feb3979973f7ff",
             "f38f1f08bcc24bdb",
             "ba7be76b7f218b84",
-            "1bc7f785464975af",
             "95eb3960c2e5ba89"
         ],
         "x": 1584,
         "y": 619,
-        "w": 782,
-        "h": 162,
+        "w": 712,
+        "h": 82,
         "info": "This group catches the errors in all the nodes of the flow. \nSecuruty function only makes the msg earier and Trim topic is to eliminate /dev/. \nCopy the group to add security in others flows. \nNOTE: Remember to change link out end.\n\n\nHere we only select subflows becouse they trigger the errors in these devices. "
     },
     {
@@ -679,27 +676,21 @@
             "033b1cf11ddc2690",
             "fe92b6c2ed733d5b",
             "49098eca9d5c5eca",
-            "9828cdd453335580",
             "bd8b3b43e3acfefd",
             "d9a93feb616a39a0",
             "47ee6bd1edfd799c",
-            "6c7f3eba592a2687",
-            "75d1614683626b44",
-            "8e533402104d89f3",
-            "68bb49b5b4d2b56b",
-            "c66e7725baf64fa2",
             "7b6eb6011ce58ae2",
             "b511530f5e221ce3",
-            "8ab5a1ca7606e002",
+            "0ddc43242cbbb4d4",
+            "f79a8b1ef00340be",
             "82b6ad09fcd01bed",
             "e60d844bd553c302",
-            "0ddc43242cbbb4d4",
-            "f79a8b1ef00340be"
+            "9828cdd453335580"
         ],
-        "x": 184,
+        "x": 4,
         "y": 799,
         "w": 2082,
-        "h": 422
+        "h": 322
     },
     {
         "id": "9a5715b539c43b53",
@@ -869,6 +860,131 @@
         "y": 459,
         "w": 992,
         "h": 142
+    },
+    {
+        "id": "131e42772e5fe62d",
+        "type": "group",
+        "z": "d72f43198c705066",
+        "name": "Connection S2 Flow Ctrl",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2ca00d5cc97273ae",
+            "500edfb43960a527",
+            "f53a5fcae70429d2",
+            "e2f9964a0a6df0f4",
+            "a397c0f7c4b399d3",
+            "c938e49bb636c33d",
+            "9960fc4ea5d93bd5",
+            "478072d4618e9d29",
+            "092a253f2635b5b6",
+            "95d015dab0ebb7fc"
+        ],
+        "x": 134,
+        "y": 1399,
+        "w": 712,
+        "h": 302
+    },
+    {
+        "id": "7560b9314c8a7f2b",
+        "type": "group",
+        "z": "d72f43198c705066",
+        "name": "Connection S3 Pressure Ctrl",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "23631fc04b60be10",
+            "68179549e473ca89",
+            "eec6e882030bae77",
+            "2fcf0a21d1eb1f32",
+            "f9af905c2f91729c",
+            "9135e640027358db",
+            "7752b0f732a82cf5",
+            "9fe638383aba7f12",
+            "f76e5e4af33ebec2",
+            "d4ff750be88e356e"
+        ],
+        "x": 874,
+        "y": 1399,
+        "w": 772,
+        "h": 302
+    },
+    {
+        "id": "82f7b66e730a8ab9",
+        "type": "group",
+        "z": "732d4141e04e5e35",
+        "name": "S1 Pressure Sensor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "21a57854da211377",
+            "031bbdaffa88909e",
+            "0c6b90d3e9806483",
+            "35299e3eeb1e2d05",
+            "24c05e7d0bd68526",
+            "da6cc32f0fb749d6",
+            "74f16ae54f5274dd",
+            "65fd3cc426b1c0b0",
+            "323dfa330209bb78",
+            "f57ae8f24c7c04b7"
+        ],
+        "x": 94,
+        "y": 339,
+        "w": 752,
+        "h": 302
+    },
+    {
+        "id": "22573f686a57da42",
+        "type": "group",
+        "z": "732d4141e04e5e35",
+        "name": "S4 Pressure Sensor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9cfec854a5ba4669",
+            "bb0a61a33eadba6e",
+            "f76b60db9fba488b",
+            "c8e5c1d353b2e11e",
+            "2186de6e6f7c0d2f",
+            "c3da1cacf5c1a1e7",
+            "91eeef313d77afaa",
+            "14712243d9cccdb6",
+            "d265691face9de78",
+            "c4d31af94c2ed541"
+        ],
+        "x": 934,
+        "y": 339,
+        "w": 752,
+        "h": 302
+    },
+    {
+        "id": "34bbe7b98151095d",
+        "type": "group",
+        "z": "f90d957cc2f3e107",
+        "name": "Connection",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e0cd2d4967b735e4",
+            "be0a5f674afce7dc",
+            "5e0346e2f3416465",
+            "e140b1e5e5dfae8a",
+            "51874f73f92e9253",
+            "911790f9232870d5",
+            "88bc512c0894fb93",
+            "6b220883d45679d9",
+            "38e3743705860b2c",
+            "1cd04ebe7b0881f3"
+        ],
+        "x": 94,
+        "y": 579,
+        "w": 792,
+        "h": 302
     },
     {
         "id": "4b0a6b86bc2c5ad7",
@@ -1158,131 +1274,6 @@
         "y": 2199,
         "w": 322,
         "h": 142
-    },
-    {
-        "id": "131e42772e5fe62d",
-        "type": "group",
-        "z": "d72f43198c705066",
-        "name": "Connection S2 Flow Ctrl",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "2ca00d5cc97273ae",
-            "500edfb43960a527",
-            "f53a5fcae70429d2",
-            "e2f9964a0a6df0f4",
-            "a397c0f7c4b399d3",
-            "c938e49bb636c33d",
-            "9960fc4ea5d93bd5",
-            "478072d4618e9d29",
-            "092a253f2635b5b6",
-            "95d015dab0ebb7fc"
-        ],
-        "x": 134,
-        "y": 1399,
-        "w": 712,
-        "h": 302
-    },
-    {
-        "id": "7560b9314c8a7f2b",
-        "type": "group",
-        "z": "d72f43198c705066",
-        "name": "Connection S3 Pressure Ctrl",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "23631fc04b60be10",
-            "68179549e473ca89",
-            "eec6e882030bae77",
-            "2fcf0a21d1eb1f32",
-            "f9af905c2f91729c",
-            "9135e640027358db",
-            "7752b0f732a82cf5",
-            "9fe638383aba7f12",
-            "f76e5e4af33ebec2",
-            "d4ff750be88e356e"
-        ],
-        "x": 874,
-        "y": 1399,
-        "w": 772,
-        "h": 302
-    },
-    {
-        "id": "82f7b66e730a8ab9",
-        "type": "group",
-        "z": "732d4141e04e5e35",
-        "name": "S1 Pressure Sensor",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "21a57854da211377",
-            "031bbdaffa88909e",
-            "0c6b90d3e9806483",
-            "35299e3eeb1e2d05",
-            "24c05e7d0bd68526",
-            "da6cc32f0fb749d6",
-            "74f16ae54f5274dd",
-            "65fd3cc426b1c0b0",
-            "323dfa330209bb78",
-            "f57ae8f24c7c04b7"
-        ],
-        "x": 94,
-        "y": 339,
-        "w": 752,
-        "h": 302
-    },
-    {
-        "id": "22573f686a57da42",
-        "type": "group",
-        "z": "732d4141e04e5e35",
-        "name": "S4 Pressure Sensor",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "9cfec854a5ba4669",
-            "bb0a61a33eadba6e",
-            "f76b60db9fba488b",
-            "c8e5c1d353b2e11e",
-            "2186de6e6f7c0d2f",
-            "c3da1cacf5c1a1e7",
-            "91eeef313d77afaa",
-            "14712243d9cccdb6",
-            "d265691face9de78",
-            "c4d31af94c2ed541"
-        ],
-        "x": 934,
-        "y": 339,
-        "w": 752,
-        "h": 302
-    },
-    {
-        "id": "34bbe7b98151095d",
-        "type": "group",
-        "z": "f90d957cc2f3e107",
-        "name": "Connection",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "e0cd2d4967b735e4",
-            "be0a5f674afce7dc",
-            "5e0346e2f3416465",
-            "e140b1e5e5dfae8a",
-            "51874f73f92e9253",
-            "911790f9232870d5",
-            "88bc512c0894fb93",
-            "6b220883d45679d9",
-            "38e3743705860b2c",
-            "1cd04ebe7b0881f3"
-        ],
-        "x": 94,
-        "y": 579,
-        "w": 792,
-        "h": 302
     },
     {
         "id": "0f184659aec5254c",
@@ -1808,7 +1799,7 @@
         "type": "function",
         "z": "8c760ef285f664c1",
         "name": "BK-ELFLOW Flow 2 Meas ",
-        "func": "var output = parseInt(msg.payload);\nvar hexword;\nvar hexString;\n\n\nhexword = Math.round(output*32000/10);\nhexString = hexword.toString(16);\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = {payload : str2};\n\nreturn [msg];\n",
+        "func": "var output =parseFloat(msg.payload); // parseInt(msg.payload);\nvar hexword;\nvar hexString;\n\n\nhexword = Math.round(output*32000/10);\nhexString = hexword.toString(16);\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = {payload : str2};\n\nreturn [msg];\n",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -1826,7 +1817,7 @@
         "type": "function",
         "z": "4b16d557cb3dbbdc",
         "name": "BK-ELPRESS Press 2 Meas ",
-        "func": "var output = parseInt(msg.payload);\nvar hexword;\nvar hexString;\n\n\nhexword = Math.round(output * 32000 / 10);\nhexString = hexword.toString(16);\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = { payload: str2 };\n\nreturn [msg];",
+        "func": "var output = parseInt(msg.payload); //parseInt(msg.payload);\nvar hexword;\nvar hexString;\n\n\nhexword = Math.round(output * 32000 / 1500);\nhexString = hexword.toString(16);\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = { payload: str2 };\n\nreturn [msg];",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -3140,7 +3131,6 @@
         "y": 140,
         "wires": [
             [
-                "1413e9c2edf329ee",
                 "6d94b13e3a7b924c"
             ]
         ]
@@ -3443,24 +3433,6 @@
         ]
     },
     {
-        "id": "5c308f756e7ad9f5",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "2dd13e5f10779e03",
-        "name": "debug 373",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2250,
-        "y": 520,
-        "wires": []
-    },
-    {
         "id": "5edf8ce8dd2d4b0d",
         "type": "string",
         "z": "d72f43198c705066",
@@ -3485,7 +3457,6 @@
         "y": 440,
         "wires": [
             [
-                "5c308f756e7ad9f5",
                 "f7ae3dec57c5ad9c"
             ]
         ]
@@ -3544,24 +3515,6 @@
         ]
     },
     {
-        "id": "1bc7f785464975af",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "28fcea42a9100cae",
-        "name": "debug 377",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2250,
-        "y": 740,
-        "wires": []
-    },
-    {
         "id": "95eb3960c2e5ba89",
         "type": "string",
         "z": "d72f43198c705066",
@@ -3586,7 +3539,6 @@
         "y": 660,
         "wires": [
             [
-                "1bc7f785464975af",
                 "05feb3979973f7ff"
             ]
         ]
@@ -3609,7 +3561,7 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 2130,
+        "x": 1950,
         "y": 880,
         "wires": []
     },
@@ -3632,7 +3584,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 310,
+        "x": 130,
         "y": 880,
         "wires": [
             [
@@ -3661,7 +3613,7 @@
         "max": "1500",
         "step": "1",
         "className": "",
-        "x": 520,
+        "x": 340,
         "y": 880,
         "wires": [
             [
@@ -3675,20 +3627,19 @@
         "z": "d72f43198c705066",
         "g": "45cd473ec394c607",
         "name": "Coerce 1500",
-        "func": "var output = msg.payload;\n\noutput = parseInt(output);\n\nif (output > 1500) {\n    msg.payload = 1500\n} else if (output < 0) {\n    msg.payload = 0\n} else if (output ==0){\n    msg.payload = 0\n}\nreturn msg;",
+        "func": "var output = msg.payload;\n\noutput = parseInt(output);\n\nif (output > 1500) {\n    output = 1500\n} else if (output < 0) {\n    output = 0\n} else if (output ==0){\n    output = 0\n}\n\nmsg.payload=output;\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
+        "x": 510,
         "y": 880,
         "wires": [
             [
-                "9828cdd453335580",
                 "ecd69d2ac553a8ec",
-                "75d1614683626b44"
+                "9828cdd453335580"
             ]
         ]
     },
@@ -3711,7 +3662,7 @@
         "sendOnBlur": true,
         "className": "",
         "topicType": "msg",
-        "x": 290,
+        "x": 110,
         "y": 1080,
         "wires": [
             [
@@ -3740,7 +3691,7 @@
         "max": "12",
         "step": "0.1",
         "className": "",
-        "x": 530,
+        "x": 350,
         "y": 1080,
         "wires": [
             [
@@ -3754,14 +3705,14 @@
         "z": "d72f43198c705066",
         "g": "45cd473ec394c607",
         "name": "Coerce 12",
-        "func": "var output = msg.payload;\n\noutput = parseInt(output);\n\nif (output > 12) {\n    msg.payload = 12\n} else if (output < 1) {\n    msg.payload = 0\n}\nreturn msg;",
+        "func": "var output = msg.payload;\n\noutput = parseFloat(output);\n\nif (output > 12) {\n    output = 12\n} else if (output < 1) {\n    output = 0\n}\n\nmsg.payload=output;\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
+        "x": 540,
         "y": 1080,
         "wires": [
             [
@@ -3777,7 +3728,7 @@
         "g": "45cd473ec394c607",
         "name": "BK-S3",
         "serial": "65eee66c.c52a98",
-        "x": 1160,
+        "x": 980,
         "y": 880,
         "wires": [
             [
@@ -3792,7 +3743,7 @@
         "g": "45cd473ec394c607",
         "name": "BS-S2",
         "serial": "488efe6f06074f88",
-        "x": 1160,
+        "x": 980,
         "y": 1080,
         "wires": [
             [
@@ -3813,7 +3764,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1390,
+        "x": 1210,
         "y": 880,
         "wires": [
             [
@@ -3828,11 +3779,10 @@
         "g": "45cd473ec394c607",
         "name": "BK-S3",
         "serial": "65eee66c.c52a98",
-        "x": 1550,
+        "x": 1370,
         "y": 880,
         "wires": [
             [
-                "68bb49b5b4d2b56b",
                 "f79a8b1ef00340be"
             ]
         ]
@@ -3843,13 +3793,12 @@
         "z": "d72f43198c705066",
         "g": "45cd473ec394c607",
         "name": "",
-        "x": 1810,
+        "x": 1630,
         "y": 880,
         "wires": [
             [
                 "8da95455fa4ae50a",
-                "b511530f5e221ce3",
-                "c66e7725baf64fa2"
+                "b511530f5e221ce3"
             ]
         ]
     },
@@ -3867,7 +3816,7 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 2090,
+        "x": 1910,
         "y": 1080,
         "wires": []
     },
@@ -3878,11 +3827,10 @@
         "g": "45cd473ec394c607",
         "name": "BS-S2",
         "serial": "488efe6f06074f88",
-        "x": 1530,
+        "x": 1350,
         "y": 1080,
         "wires": [
             [
-                "8ab5a1ca7606e002",
                 "0ddc43242cbbb4d4"
             ]
         ]
@@ -3893,28 +3841,12 @@
         "z": "d72f43198c705066",
         "g": "45cd473ec394c607",
         "name": "",
-        "x": 1820,
+        "x": 1640,
         "y": 1080,
         "wires": [
             [
                 "033b1cf11ddc2690",
-                "47ee6bd1edfd799c",
-                "6c7f3eba592a2687"
-            ]
-        ]
-    },
-    {
-        "id": "9828cdd453335580",
-        "type": "subflow:4b16d557cb3dbbdc",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "",
-        "x": 960,
-        "y": 880,
-        "wires": [
-            [
-                "1c11507305515760",
-                "8e533402104d89f3"
+                "47ee6bd1edfd799c"
             ]
         ]
     },
@@ -3930,7 +3862,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1390,
+        "x": 1210,
         "y": 1080,
         "wires": [
             [
@@ -3944,7 +3876,7 @@
         "z": "d72f43198c705066",
         "g": "45cd473ec394c607",
         "name": "",
-        "x": 950,
+        "x": 770,
         "y": 1080,
         "wires": [
             [
@@ -3962,93 +3894,8 @@
         "links": [
             "3740544cdaa6b1ec"
         ],
-        "x": 2005,
+        "x": 1825,
         "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "6c7f3eba592a2687",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2120,
-        "y": 1180,
-        "wires": []
-    },
-    {
-        "id": "75d1614683626b44",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "debug 161",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 790,
-        "y": 960,
-        "wires": []
-    },
-    {
-        "id": "8e533402104d89f3",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "debug 162",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1050,
-        "y": 980,
-        "wires": []
-    },
-    {
-        "id": "68bb49b5b4d2b56b",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "debug 163",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1630,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "c66e7725baf64fa2",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "debug 165",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2100,
-        "y": 960,
         "wires": []
     },
     {
@@ -4073,7 +3920,7 @@
         "topic": "",
         "payload": "1",
         "payloadType": "str",
-        "x": 1240,
+        "x": 1060,
         "y": 980,
         "wires": [
             [
@@ -4092,7 +3939,7 @@
         "links": [
             "fc8aa22482fe1d10"
         ],
-        "x": 2035,
+        "x": 1855,
         "y": 840,
         "wires": []
     },
@@ -4118,7 +3965,7 @@
         "payload": ":0780047163716300",
         "payloadType": "str",
         "x": 2650,
-        "y": 320,
+        "y": 280,
         "wires": [
             [
                 "7eed92345ca9abbd"
@@ -4750,8 +4597,8 @@
         "topic": "",
         "payload": ":068004720B720B",
         "payloadType": "str",
-        "x": 2670,
-        "y": 480,
+        "x": 2710,
+        "y": 500,
         "wires": [
             [
                 "650a27412fdc140d"
@@ -4786,40 +4633,6 @@
         "statusType": "auto",
         "x": 3300,
         "y": 500,
-        "wires": []
-    },
-    {
-        "id": "8ab5a1ca7606e002",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "debug 22",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1690,
-        "y": 1140,
-        "wires": []
-    },
-    {
-        "id": "1413e9c2edf329ee",
-        "type": "debug",
-        "z": "d72f43198c705066",
-        "g": "5465b2787eb8e18e",
-        "name": "debug 25",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1550,
-        "y": 180,
         "wires": []
     },
     {
@@ -5165,60 +4978,6 @@
         "l": false
     },
     {
-        "id": "82b6ad09fcd01bed",
-        "type": "switch",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "msg.status==OK",
-        "property": "status",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "OK",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1245,
-        "y": 880,
-        "wires": [
-            [
-                "8271cd698a432dab"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "e60d844bd553c302",
-        "type": "switch",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "msg.status==OK",
-        "property": "status",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "OK",
-                "vt": "str"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 1245,
-        "y": 1080,
-        "wires": [
-            [
-                "bd8b3b43e3acfefd"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "0ddc43242cbbb4d4",
         "type": "switch",
         "z": "d72f43198c705066",
@@ -5236,7 +4995,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1625,
+        "x": 1445,
         "y": 1080,
         "wires": [
             [
@@ -5263,7 +5022,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1645,
+        "x": 1465,
         "y": 880,
         "wires": [
             [
@@ -5276,6 +5035,7 @@
         "id": "2ca00d5cc97273ae",
         "type": "serial in",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "serial": "488efe6f06074f88",
@@ -5291,6 +5051,7 @@
         "id": "500edfb43960a527",
         "type": "ui_text",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "group": "7af0a2b11fc0b019",
         "order": 12,
@@ -5313,6 +5074,7 @@
         "id": "f53a5fcae70429d2",
         "type": "status",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "Connection status",
         "scope": [
@@ -5330,6 +5092,7 @@
         "id": "e2f9964a0a6df0f4",
         "type": "function",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "SerialPort Status",
         "func": "\nmsg.payload = msg.status.fill;\n\nreturn msg;",
@@ -5352,6 +5115,7 @@
         "id": "a397c0f7c4b399d3",
         "type": "serial control",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "serial": "488efe6f06074f88",
@@ -5365,6 +5129,7 @@
         "id": "c938e49bb636c33d",
         "type": "ui_button",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "group": "7af0a2b11fc0b019",
@@ -5394,6 +5159,7 @@
         "id": "9960fc4ea5d93bd5",
         "type": "ui_button",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "group": "7af0a2b11fc0b019",
@@ -5423,6 +5189,7 @@
         "id": "478072d4618e9d29",
         "type": "ui_led2",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "order": 11,
         "group": "7af0a2b11fc0b019",
@@ -5466,6 +5233,7 @@
         "id": "23631fc04b60be10",
         "type": "serial in",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "serial": "65eee66c.c52a98",
@@ -5481,6 +5249,7 @@
         "id": "68179549e473ca89",
         "type": "ui_text",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "group": "8454d173ded83ab0",
         "order": 12,
@@ -5503,6 +5272,7 @@
         "id": "eec6e882030bae77",
         "type": "status",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "Connection status",
         "scope": [
@@ -5520,6 +5290,7 @@
         "id": "2fcf0a21d1eb1f32",
         "type": "function",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "SerialPort Status",
         "func": "\nmsg.payload = msg.status.fill;\n\nreturn msg;",
@@ -5542,6 +5313,7 @@
         "id": "f9af905c2f91729c",
         "type": "serial control",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "serial": "65eee66c.c52a98",
@@ -5555,6 +5327,7 @@
         "id": "9135e640027358db",
         "type": "ui_button",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "group": "8454d173ded83ab0",
@@ -5584,6 +5357,7 @@
         "id": "7752b0f732a82cf5",
         "type": "ui_button",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "group": "8454d173ded83ab0",
@@ -5613,6 +5387,7 @@
         "id": "9fe638383aba7f12",
         "type": "ui_led2",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "order": 11,
         "group": "8454d173ded83ab0",
@@ -5656,6 +5431,7 @@
         "id": "092a253f2635b5b6",
         "type": "debug",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "BRK_S2_Con",
         "active": true,
@@ -5674,6 +5450,7 @@
         "id": "95d015dab0ebb7fc",
         "type": "switch",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "property": "payload",
@@ -5700,6 +5477,7 @@
         "id": "f76e5e4af33ebec2",
         "type": "debug",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "BRK_S3_Con",
         "active": true,
@@ -5718,6 +5496,7 @@
         "id": "d4ff750be88e356e",
         "type": "switch",
         "z": "d72f43198c705066",
+        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "property": "payload",
@@ -5737,6 +5516,74 @@
         "wires": [
             [
                 "f76e5e4af33ebec2"
+            ]
+        ]
+    },
+    {
+        "id": "82b6ad09fcd01bed",
+        "type": "switch",
+        "z": "d72f43198c705066",
+        "g": "45cd473ec394c607",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1085,
+        "y": 880,
+        "wires": [
+            [
+                "8271cd698a432dab"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "e60d844bd553c302",
+        "type": "switch",
+        "z": "d72f43198c705066",
+        "g": "45cd473ec394c607",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1065,
+        "y": 1080,
+        "wires": [
+            [
+                "bd8b3b43e3acfefd"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "9828cdd453335580",
+        "type": "subflow:4b16d557cb3dbbdc",
+        "z": "d72f43198c705066",
+        "g": "45cd473ec394c607",
+        "name": "",
+        "x": 760,
+        "y": 880,
+        "wires": [
+            [
+                "1c11507305515760"
             ]
         ]
     },
