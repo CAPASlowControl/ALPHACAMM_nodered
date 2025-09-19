@@ -721,7 +721,7 @@
         ],
         "x": 14,
         "y": 19,
-        "w": 912,
+        "w": 892,
         "h": 922
     },
     {
@@ -881,8 +881,8 @@
             "092a253f2635b5b6",
             "95d015dab0ebb7fc"
         ],
-        "x": 134,
-        "y": 1399,
+        "x": 14,
+        "y": 1219,
         "w": 712,
         "h": 302
     },
@@ -906,8 +906,8 @@
             "f76e5e4af33ebec2",
             "d4ff750be88e356e"
         ],
-        "x": 874,
-        "y": 1399,
+        "x": 774,
+        "y": 1219,
         "w": 772,
         "h": 302
     },
@@ -5035,12 +5035,11 @@
         "id": "2ca00d5cc97273ae",
         "type": "serial in",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "serial": "488efe6f06074f88",
-        "x": 250,
-        "y": 1440,
+        "x": 130,
+        "y": 1260,
         "wires": [
             [
                 "500edfb43960a527"
@@ -5051,7 +5050,6 @@
         "id": "500edfb43960a527",
         "type": "ui_text",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "group": "7af0a2b11fc0b019",
         "order": 12,
@@ -5066,22 +5064,21 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 420,
-        "y": 1440,
+        "x": 300,
+        "y": 1260,
         "wires": []
     },
     {
         "id": "f53a5fcae70429d2",
         "type": "status",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "Connection status",
         "scope": [
             "2ca00d5cc97273ae"
         ],
-        "x": 290,
-        "y": 1520,
+        "x": 170,
+        "y": 1340,
         "wires": [
             [
                 "e2f9964a0a6df0f4"
@@ -5092,7 +5089,6 @@
         "id": "e2f9964a0a6df0f4",
         "type": "function",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "SerialPort Status",
         "func": "\nmsg.payload = msg.status.fill;\n\nreturn msg;",
@@ -5102,8 +5098,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 530,
-        "y": 1520,
+        "x": 410,
+        "y": 1340,
         "wires": [
             [
                 "478072d4618e9d29",
@@ -5115,12 +5111,11 @@
         "id": "a397c0f7c4b399d3",
         "type": "serial control",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "serial": "488efe6f06074f88",
-        "x": 470,
-        "y": 1640,
+        "x": 350,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -5129,7 +5124,6 @@
         "id": "c938e49bb636c33d",
         "type": "ui_button",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "group": "7af0a2b11fc0b019",
@@ -5147,8 +5141,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 270,
-        "y": 1620,
+        "x": 150,
+        "y": 1440,
         "wires": [
             [
                 "a397c0f7c4b399d3"
@@ -5159,7 +5153,6 @@
         "id": "9960fc4ea5d93bd5",
         "type": "ui_button",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "group": "7af0a2b11fc0b019",
@@ -5177,8 +5170,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 290,
-        "y": 1660,
+        "x": 170,
+        "y": 1480,
         "wires": [
             [
                 "a397c0f7c4b399d3"
@@ -5189,7 +5182,6 @@
         "id": "478072d4618e9d29",
         "type": "ui_led2",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "order": 11,
         "group": "7af0a2b11fc0b019",
@@ -5225,20 +5217,19 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 730,
-        "y": 1520,
+        "x": 610,
+        "y": 1340,
         "wires": []
     },
     {
         "id": "23631fc04b60be10",
         "type": "serial in",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "serial": "65eee66c.c52a98",
-        "x": 990,
-        "y": 1440,
+        "x": 890,
+        "y": 1260,
         "wires": [
             [
                 "68179549e473ca89"
@@ -5249,7 +5240,6 @@
         "id": "68179549e473ca89",
         "type": "ui_text",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "group": "8454d173ded83ab0",
         "order": 12,
@@ -5264,22 +5254,21 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 1160,
-        "y": 1440,
+        "x": 1060,
+        "y": 1260,
         "wires": []
     },
     {
         "id": "eec6e882030bae77",
         "type": "status",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "Connection status",
         "scope": [
             "23631fc04b60be10"
         ],
-        "x": 1030,
-        "y": 1520,
+        "x": 930,
+        "y": 1340,
         "wires": [
             [
                 "2fcf0a21d1eb1f32"
@@ -5290,7 +5279,6 @@
         "id": "2fcf0a21d1eb1f32",
         "type": "function",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "SerialPort Status",
         "func": "\nmsg.payload = msg.status.fill;\n\nreturn msg;",
@@ -5300,8 +5288,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1270,
-        "y": 1520,
+        "x": 1170,
+        "y": 1340,
         "wires": [
             [
                 "9fe638383aba7f12",
@@ -5313,12 +5301,11 @@
         "id": "f9af905c2f91729c",
         "type": "serial control",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "serial": "65eee66c.c52a98",
-        "x": 1210,
-        "y": 1640,
+        "x": 1110,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -5327,7 +5314,6 @@
         "id": "9135e640027358db",
         "type": "ui_button",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "group": "8454d173ded83ab0",
@@ -5345,8 +5331,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1010,
-        "y": 1620,
+        "x": 910,
+        "y": 1440,
         "wires": [
             [
                 "f9af905c2f91729c"
@@ -5357,7 +5343,6 @@
         "id": "7752b0f732a82cf5",
         "type": "ui_button",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "group": "8454d173ded83ab0",
@@ -5375,8 +5360,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1030,
-        "y": 1660,
+        "x": 930,
+        "y": 1480,
         "wires": [
             [
                 "f9af905c2f91729c"
@@ -5387,7 +5372,6 @@
         "id": "9fe638383aba7f12",
         "type": "ui_led2",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "order": 11,
         "group": "8454d173ded83ab0",
@@ -5423,15 +5407,14 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 1470,
-        "y": 1520,
+        "x": 1370,
+        "y": 1340,
         "wires": []
     },
     {
         "id": "092a253f2635b5b6",
         "type": "debug",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "BRK_S2_Con",
         "active": true,
@@ -5442,15 +5425,14 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 720,
-        "y": 1580,
+        "x": 600,
+        "y": 1400,
         "wires": []
     },
     {
         "id": "95d015dab0ebb7fc",
         "type": "switch",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "131e42772e5fe62d",
         "name": "",
         "property": "payload",
@@ -5465,8 +5447,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 570,
-        "y": 1580,
+        "x": 450,
+        "y": 1400,
         "wires": [
             [
                 "092a253f2635b5b6"
@@ -5477,7 +5459,6 @@
         "id": "f76e5e4af33ebec2",
         "type": "debug",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "BRK_S3_Con",
         "active": true,
@@ -5488,15 +5469,14 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1520,
-        "y": 1580,
+        "x": 1420,
+        "y": 1400,
         "wires": []
     },
     {
         "id": "d4ff750be88e356e",
         "type": "switch",
         "z": "d72f43198c705066",
-        "d": true,
         "g": "7560b9314c8a7f2b",
         "name": "",
         "property": "payload",
@@ -5511,8 +5491,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1370,
-        "y": 1580,
+        "x": 1270,
+        "y": 1400,
         "wires": [
             [
                 "f76e5e4af33ebec2"
@@ -7279,8 +7259,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 820,
-        "y": 280,
+        "x": 800,
+        "y": 240,
         "wires": []
     },
     {
@@ -7697,7 +7677,6 @@
         "id": "ba6c9378df13c8f8",
         "type": "link in",
         "z": "ac988ebf643b965c",
-        "d": true,
         "g": "b97b8ef4388f44e1",
         "name": "DB_S3_MV",
         "links": [
@@ -7715,7 +7694,6 @@
         "id": "fc8aa22482fe1d10",
         "type": "link in",
         "z": "ac988ebf643b965c",
-        "d": true,
         "g": "b97b8ef4388f44e1",
         "name": "DB_S3_SPV",
         "links": [
@@ -7896,7 +7874,6 @@
         "id": "62329fc7db14b406",
         "type": "link in",
         "z": "ac988ebf643b965c",
-        "d": true,
         "g": "af537d75ee83cd4b",
         "name": "DB_S2_MV",
         "links": [
@@ -7914,7 +7891,6 @@
         "id": "3740544cdaa6b1ec",
         "type": "link in",
         "z": "ac988ebf643b965c",
-        "d": true,
         "g": "af537d75ee83cd4b",
         "name": "DB_S2_SPV",
         "links": [
@@ -8047,7 +8023,6 @@
         "id": "3c5068ce71a8bc46",
         "type": "link in",
         "z": "ac988ebf643b965c",
-        "d": true,
         "g": "9afe5eb3a3df483b",
         "name": "DB_S4_MV",
         "links": [
@@ -10321,7 +10296,6 @@
         "id": "bb78f96ec795a336",
         "type": "link in",
         "z": "ac988ebf643b965c",
-        "d": true,
         "g": "3be55cc3dc3dacdd",
         "name": "DB_S1_MV",
         "links": [
