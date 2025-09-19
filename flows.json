@@ -717,7 +717,8 @@
             "db15c7f97ed85c96",
             "5edb138768f23c01",
             "e840be78efd00924",
-            "b0322ebb68974a20"
+            "b0322ebb68974a20",
+            "d10015ea9aadd4e0"
         ],
         "x": 14,
         "y": 19,
@@ -981,8 +982,8 @@
             "38e3743705860b2c",
             "1cd04ebe7b0881f3"
         ],
-        "x": 94,
-        "y": 579,
+        "x": 74,
+        "y": 559,
         "w": 792,
         "h": 302
     },
@@ -1273,6 +1274,46 @@
         "x": 1924,
         "y": 2199,
         "w": 322,
+        "h": 142
+    },
+    {
+        "id": "ad454e8ef70c0e73",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "name": "Memory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8e59e835d9d3dbe8",
+            "2a1819a0d3dfa1f9",
+            "8a1dd170fc15b025",
+            "649c87cb073a5657"
+        ],
+        "x": 1114,
+        "y": 919,
+        "w": 1342,
+        "h": 129.5
+    },
+    {
+        "id": "3c3505318dda7a97",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "name": "DB insert Memory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7bf43efc15699961",
+            "626c1bc98dcdfb40",
+            "9cfa4cbac38e6526",
+            "f7ab2be9c26db1d3",
+            "ddee336541a21411",
+            "5b51fede1e1bf371"
+        ],
+        "x": 1114,
+        "y": 1099,
+        "w": 892,
         "h": 142
     },
     {
@@ -1716,6 +1757,17 @@
         "name": "UController",
         "tab": "cf5851cdbfa28fa6",
         "order": 6,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "41f2c4907d096a1a",
+        "type": "ui_group",
+        "name": "Memory",
+        "tab": "cf5851cdbfa28fa6",
+        "order": 7,
         "disp": true,
         "width": 6,
         "collapse": false,
@@ -5805,7 +5857,8 @@
         "name": "DB_S4_MV",
         "mode": "link",
         "links": [
-            "3c5068ce71a8bc46"
+            "3c5068ce71a8bc46",
+            "583508315087a3bf"
         ],
         "x": 1055,
         "y": 200,
@@ -7018,8 +7071,8 @@
         "g": "34bbe7b98151095d",
         "name": "",
         "serial": "e253aa57314a642a",
-        "x": 210,
-        "y": 620,
+        "x": 190,
+        "y": 600,
         "wires": [
             [
                 "be0a5f674afce7dc"
@@ -7044,8 +7097,8 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 380,
-        "y": 620,
+        "x": 360,
+        "y": 600,
         "wires": []
     },
     {
@@ -7057,8 +7110,8 @@
         "scope": [
             "e0cd2d4967b735e4"
         ],
-        "x": 250,
-        "y": 700,
+        "x": 230,
+        "y": 680,
         "wires": [
             [
                 "e140b1e5e5dfae8a"
@@ -7078,8 +7131,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 490,
-        "y": 700,
+        "x": 470,
+        "y": 680,
         "wires": [
             [
                 "6b220883d45679d9",
@@ -7094,8 +7147,8 @@
         "g": "34bbe7b98151095d",
         "name": "",
         "serial": "e253aa57314a642a",
-        "x": 430,
-        "y": 820,
+        "x": 410,
+        "y": 800,
         "wires": [
             []
         ]
@@ -7121,8 +7174,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 230,
-        "y": 800,
+        "x": 210,
+        "y": 780,
         "wires": [
             [
                 "51874f73f92e9253"
@@ -7150,8 +7203,8 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 250,
-        "y": 840,
+        "x": 230,
+        "y": 820,
         "wires": [
             [
                 "51874f73f92e9253"
@@ -7197,8 +7250,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "",
-        "x": 690,
-        "y": 700,
+        "x": 670,
+        "y": 680,
         "wires": []
     },
     {
@@ -7215,8 +7268,8 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 780,
-        "y": 760,
+        "x": 760,
+        "y": 740,
         "wires": []
     },
     {
@@ -7237,8 +7290,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 650,
-        "y": 760,
+        "x": 630,
+        "y": 740,
         "wires": [
             [
                 "1cd04ebe7b0881f3"
@@ -7379,7 +7432,7 @@
         ],
         "repeat": "",
         "crontab": "",
-        "once": true,
+        "once": false,
         "onceDelay": 0.1,
         "topic": "",
         "payload": "",
@@ -10317,6 +10370,245 @@
         "name": "",
         "x": 1800,
         "y": 520,
+        "wires": []
+    },
+    {
+        "id": "8e59e835d9d3dbe8",
+        "type": "exec",
+        "z": "ac988ebf643b965c",
+        "g": "ad454e8ef70c0e73",
+        "command": "P=$(systemctl show --property MainPID --value nodered); top -b -n1 -em -p$P | grep $P | xargs | cut -d \" \" -f6",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1690,
+        "y": 1000,
+        "wires": [
+            [
+                "8a1dd170fc15b025"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2a1819a0d3dfa1f9",
+        "type": "inject",
+        "z": "ac988ebf643b965c",
+        "g": "ad454e8ef70c0e73",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": ":",
+        "payloadType": "str",
+        "x": 1210,
+        "y": 1000,
+        "wires": [
+            [
+                "8e59e835d9d3dbe8"
+            ]
+        ]
+    },
+    {
+        "id": "8a1dd170fc15b025",
+        "type": "function",
+        "z": "ac988ebf643b965c",
+        "g": "ad454e8ef70c0e73",
+        "name": "msg2float",
+        "func": "let cleanInput;\ncleanInput  = msg.payload.trim();\ncleanInput = cleanInput.replace(\"m\", \"\").replace(\"g\",\"E3\");\n\nmsg.payload = parseFloat( cleanInput );\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2150,
+        "y": 980,
+        "wires": [
+            [
+                "649c87cb073a5657",
+                "ddee336541a21411"
+            ]
+        ]
+    },
+    {
+        "id": "649c87cb073a5657",
+        "type": "ui_text",
+        "z": "ac988ebf643b965c",
+        "g": "ad454e8ef70c0e73",
+        "group": "41f2c4907d096a1a",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Memory [MB]",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 2360,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "d10015ea9aadd4e0",
+        "type": "postgresql",
+        "z": "ac988ebf643b965c",
+        "g": "9a5715b539c43b53",
+        "name": "Create Table Memory",
+        "query": "CREATE TABLE memory(\n    ID SERIAL PRIMARY KEY,\n    timestamp TIMESTAMP(3) DEFAULT CURRENT_TIMESTAMP,\n    MeasurePoint FLOAT\n);\n",
+        "postgreSQLConfig": "4b3ae4eeb8191fd4",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 680,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7bf43efc15699961",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "3c3505318dda7a97",
+        "name": "Set MeasureValue",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "MeasureValue",
+                "tot": "str"
+            }
+        ],
+        "x": 1430,
+        "y": 1140,
+        "wires": [
+            [
+                "626c1bc98dcdfb40"
+            ]
+        ]
+    },
+    {
+        "id": "626c1bc98dcdfb40",
+        "type": "join",
+        "z": "ac988ebf643b965c",
+        "g": "3c3505318dda7a97",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1650,
+        "y": 1200,
+        "wires": [
+            [
+                "5b51fede1e1bf371"
+            ]
+        ]
+    },
+    {
+        "id": "9cfa4cbac38e6526",
+        "type": "inject",
+        "z": "ac988ebf643b965c",
+        "g": "3c3505318dda7a97",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "memory",
+        "payloadType": "str",
+        "x": 1220,
+        "y": 1200,
+        "wires": [
+            [
+                "f7ab2be9c26db1d3"
+            ]
+        ]
+    },
+    {
+        "id": "f7ab2be9c26db1d3",
+        "type": "change",
+        "z": "ac988ebf643b965c",
+        "g": "3c3505318dda7a97",
+        "name": "Set TableName",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "TableName",
+                "tot": "str"
+            }
+        ],
+        "x": 1440,
+        "y": 1200,
+        "wires": [
+            [
+                "626c1bc98dcdfb40"
+            ]
+        ]
+    },
+    {
+        "id": "ddee336541a21411",
+        "type": "subflow:25852162ecd9b7ac",
+        "z": "ac988ebf643b965c",
+        "g": "3c3505318dda7a97",
+        "name": "",
+        "x": 1220,
+        "y": 1140,
+        "wires": [
+            [
+                "7bf43efc15699961"
+            ]
+        ]
+    },
+    {
+        "id": "5b51fede1e1bf371",
+        "type": "subflow:4632d49027741f83",
+        "z": "ac988ebf643b965c",
+        "g": "3c3505318dda7a97",
+        "name": "",
+        "x": 1860,
+        "y": 1200,
         "wires": []
     },
     {
