@@ -48,72 +48,6 @@
         "env": []
     },
     {
-        "id": "7c5bfbda03d459cf",
-        "type": "subflow",
-        "name": "SF BK-ELPRESS M2P Func",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 460,
-                "y": 140,
-                "wires": [
-                    {
-                        "id": "249465b6f9b25a99"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 860,
-                "y": 140,
-                "wires": [
-                    {
-                        "id": "249465b6f9b25a99",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
-        "id": "ceabba86172c98e2",
-        "type": "subflow",
-        "name": "SF BK-ELFLOW M2F Func",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 480,
-                "y": 200,
-                "wires": [
-                    {
-                        "id": "d02658c22c43805b"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 880,
-                "y": 200,
-                "wires": [
-                    {
-                        "id": "d02658c22c43805b",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
         "id": "2af719fb2fc809d7",
         "type": "subflow",
         "name": "SF TH-USB M2Val Func",
@@ -148,105 +82,6 @@
                     {
                         "id": "9fa320096d54ffa3",
                         "port": 1
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
-        "id": "2ebf49d74dc84b04",
-        "type": "subflow",
-        "name": "SF BK ControlMode Func",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 60,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "eb8c061552ca1bc4"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 340,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "eb8c061552ca1bc4",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
-        "id": "8c760ef285f664c1",
-        "type": "subflow",
-        "name": "SF BK-ELFLOW F2M Func",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 80,
-                "y": 120,
-                "wires": [
-                    {
-                        "id": "50d5deebf8832b7f"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 620,
-                "y": 120,
-                "wires": [
-                    {
-                        "id": "50d5deebf8832b7f",
-                        "port": 0
-                    }
-                ]
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#DDAA99"
-    },
-    {
-        "id": "4b16d557cb3dbbdc",
-        "type": "subflow",
-        "name": "SF BK-ELPRESS P2M Func",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 60,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "3aa92f00995e2d1e"
-                    }
-                ]
-            }
-        ],
-        "out": [
-            {
-                "x": 440,
-                "y": 80,
-                "wires": [
-                    {
-                        "id": "3aa92f00995e2d1e",
-                        "port": 0
                     }
                 ]
             }
@@ -423,15 +258,15 @@
             "810293b63be01b61",
             "255990f6c243b551",
             "9ef5365426932d2a",
-            "aeb9bbbc3d35801b",
-            "438c245f6ea34abd",
             "facc5290091e0f84",
             "9c6baaebd82bca4f",
             "59ac57e511c91223",
             "0245dd72c405a95a",
             "5b67066fba88c525",
             "443a318048b39c2a",
-            "5ba2699fc963e133"
+            "5ba2699fc963e133",
+            "647664e6d6055726",
+            "a1311eb52c718fe4"
         ],
         "x": 14,
         "y": 99,
@@ -449,23 +284,22 @@
         "nodes": [
             "33885c4236198a1d",
             "36fd090493e29f93",
-            "64ec612ddd21e4cd",
             "1a3cc15400fbddf3",
-            "b723f97cf7b2153b",
-            "09ade00e68ba62d6",
-            "6a09f329e0035bc2",
-            "90b1af0637b3c142",
             "46a090a54f64e001",
             "29580ea305f6b5f0",
             "5efd8e76c04f0d1f",
             "099ec00258900658",
             "25adf8931ee348a7",
-            "c839a8a03959c8d4"
+            "c839a8a03959c8d4",
+            "b43f00a326c722f2",
+            "573014efad1c1bf9",
+            "40de900cd31b8a90",
+            "7800d2bcf33f6d02"
         ],
         "x": 94,
-        "y": 79,
-        "w": 1112,
-        "h": 202
+        "y": 59,
+        "w": 992,
+        "h": 262
     },
     {
         "id": "5465b2787eb8e18e",
@@ -476,29 +310,29 @@
             "label": true
         },
         "nodes": [
-            "32038845a818536b",
             "7105b300066ef03e",
             "cc796029e4d8d8ac",
             "2c91eca6f887814d",
             "69f267b31024eb69",
-            "b090c63340fa938c",
-            "2ec972b30db3e1dc",
             "7b8f521ae0d6358a",
             "2f4a1cb465832b29",
             "34cf9734b098cdcf",
             "e4e0518531e7161d",
             "e8d857d1258c652a",
             "8bdbd8a7100509f3",
-            "c7f0248feb6628e0",
             "91e16b60c6bc0bbc",
             "aba3398a30a292e1",
             "04a25e6f8df7f216",
             "bf27825b23c8f994",
             "6d94b13e3a7b924c",
-            "d729bc078fa3accd"
+            "d729bc078fa3accd",
+            "4484eb6968865d10",
+            "244ba16ef9533f83",
+            "9c7ba0031374213e",
+            "8d83a25c6ab39bea"
         ],
-        "x": 1074,
-        "y": 39,
+        "x": 1114,
+        "y": 79,
         "w": 1052,
         "h": 282
     },
@@ -515,21 +349,21 @@
             "08fccb29ed09d973",
             "cf9373e57ff1f297",
             "b13dde308d395ee9",
-            "8f3e377ea4109a19",
             "81b3a008301f00e0",
             "a0c166d364f9ef48",
             "c374a726d07f0368",
             "54f769a473be57f4",
             "b893e5260735842a",
             "87f70bc6b0f944cc",
-            "9b582966d27951f4",
             "4139412f45a8ee44",
             "6193e488481f037b",
             "38b3ab609bb741ee",
             "16df36e256ce2e0a",
             "53bea4c5fc83a96c",
             "31cb3ba148857c0a",
-            "af555c0e873b7e3f"
+            "af555c0e873b7e3f",
+            "1e687d436eb7ee8a",
+            "99b60d3f3d871fbd"
         ],
         "x": 14,
         "y": 439,
@@ -672,12 +506,9 @@
             "80f195d4c7ce7096",
             "8271cd698a432dab",
             "f2caee330f0d9d74",
-            "47d633fe976d1f30",
             "033b1cf11ddc2690",
             "fe92b6c2ed733d5b",
-            "49098eca9d5c5eca",
             "bd8b3b43e3acfefd",
-            "d9a93feb616a39a0",
             "47ee6bd1edfd799c",
             "7b6eb6011ce58ae2",
             "b511530f5e221ce3",
@@ -685,7 +516,10 @@
             "f79a8b1ef00340be",
             "82b6ad09fcd01bed",
             "e60d844bd553c302",
-            "9828cdd453335580"
+            "a5037f2be98a93d2",
+            "af901a8851763f37",
+            "90ad6a7c40a365e9",
+            "db5b7ff585399b8b"
         ],
         "x": 4,
         "y": 799,
@@ -988,6 +822,46 @@
         "h": 302
     },
     {
+        "id": "ad454e8ef70c0e73",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "name": "Memory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8e59e835d9d3dbe8",
+            "2a1819a0d3dfa1f9",
+            "8a1dd170fc15b025",
+            "649c87cb073a5657"
+        ],
+        "x": 1114,
+        "y": 919,
+        "w": 1342,
+        "h": 129.5
+    },
+    {
+        "id": "3c3505318dda7a97",
+        "type": "group",
+        "z": "ac988ebf643b965c",
+        "name": "DB insert Memory",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7bf43efc15699961",
+            "626c1bc98dcdfb40",
+            "9cfa4cbac38e6526",
+            "f7ab2be9c26db1d3",
+            "ddee336541a21411",
+            "5b51fede1e1bf371"
+        ],
+        "x": 1114,
+        "y": 1099,
+        "w": 892,
+        "h": 142
+    },
+    {
         "id": "4b0a6b86bc2c5ad7",
         "type": "group",
         "z": "d72f43198c705066",
@@ -1274,46 +1148,6 @@
         "x": 1924,
         "y": 2199,
         "w": 322,
-        "h": 142
-    },
-    {
-        "id": "ad454e8ef70c0e73",
-        "type": "group",
-        "z": "ac988ebf643b965c",
-        "name": "Memory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "8e59e835d9d3dbe8",
-            "2a1819a0d3dfa1f9",
-            "8a1dd170fc15b025",
-            "649c87cb073a5657"
-        ],
-        "x": 1114,
-        "y": 919,
-        "w": 1342,
-        "h": 129.5
-    },
-    {
-        "id": "3c3505318dda7a97",
-        "type": "group",
-        "z": "ac988ebf643b965c",
-        "name": "DB insert Memory",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "7bf43efc15699961",
-            "626c1bc98dcdfb40",
-            "9cfa4cbac38e6526",
-            "f7ab2be9c26db1d3",
-            "ddee336541a21411",
-            "5b51fede1e1bf371"
-        ],
-        "x": 1114,
-        "y": 1099,
-        "w": 892,
         "h": 142
     },
     {
@@ -1774,42 +1608,6 @@
         "className": ""
     },
     {
-        "id": "249465b6f9b25a99",
-        "type": "function",
-        "z": "7c5bfbda03d459cf",
-        "name": "BK-ELPRESS Meas 2 Press",
-        "func": "const filtertext = msg.payload.trim();\nvar instr = filtertext;\nvar ininfo = instr.substr(11,4);\nvar dec = parseInt(ininfo, 16);\nvar floatv = (dec*1500/32000).toFixed(2);\n\nvar msg1 = {payload : instr};\nvar msg2 = {payload : ininfo};\nvar msg3 = {payload : dec};\nvar msg4 = {payload : floatv};\n\n\nreturn  msg4;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 660,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d02658c22c43805b",
-        "type": "function",
-        "z": "ceabba86172c98e2",
-        "name": "BK-ELFLOW Meas 2 Flow",
-        "func": "const filtertext = msg.payload.trim();\nvar instr = filtertext;\nvar ininfo = instr.substr(11,4);\nvar dec = parseInt(ininfo, 16);\nvar floatv = (dec*10/32000).toFixed(2);\n\nvar msg1 = {payload : instr};\nvar msg2 = {payload : ininfo};\nvar msg3 = {payload : dec};\nvar msg4 = {payload : floatv};\n\n\nreturn  msg4;\n",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 680,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "9fa320096d54ffa3",
         "type": "function",
         "z": "2af719fb2fc809d7",
@@ -1825,60 +1623,6 @@
         "y": 80,
         "wires": [
             [],
-            []
-        ]
-    },
-    {
-        "id": "eb8c061552ca1bc4",
-        "type": "function",
-        "z": "2ebf49d74dc84b04",
-        "name": "BK-ControlMode",
-        "func": "//var output = msg.payload.split(\"\\t\");\nvar instr = msg.payload;\nvar ininfo = instr.substr(13,1);\nvar dec = parseInt(ininfo);\n\nif(dec == 0){\n    dec = true;\n    \n}else{\n    dec = false;\n    \n}\nvar msg1 = {payload : dec};\n//var msg2 = {payload : ininfo};\n\nreturn [msg1];\n//return [msg1, msg2];",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 210,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "50d5deebf8832b7f",
-        "type": "function",
-        "z": "8c760ef285f664c1",
-        "name": "BK-ELFLOW Flow 2 Meas ",
-        "func": "var output =parseFloat(msg.payload); // parseInt(msg.payload);\nvar hexword;\nvar hexString;\n\n\nhexword = Math.round(output*32000/10);\nhexString = hexword.toString(16);\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = {payload : str2};\n\nreturn [msg];\n",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 420,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3aa92f00995e2d1e",
-        "type": "function",
-        "z": "4b16d557cb3dbbdc",
-        "name": "BK-ELPRESS Press 2 Meas ",
-        "func": "var output = parseInt(msg.payload); //parseInt(msg.payload);\nvar hexword;\nvar hexString;\n\n\nhexword = Math.round(output * 32000 / 1500);\nhexString = hexword.toString(16);\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nvar msg = { payload: str2 };\n\nreturn [msg];",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 260,
-        "y": 80,
-        "wires": [
             []
         ]
     },
@@ -2712,36 +2456,6 @@
         "wires": []
     },
     {
-        "id": "aeb9bbbc3d35801b",
-        "type": "subflow:ceabba86172c98e2",
-        "z": "d72f43198c705066",
-        "g": "b0b8253b86e18e62",
-        "name": "",
-        "x": 780,
-        "y": 300,
-        "wires": [
-            [
-                "59ac57e511c91223",
-                "0245dd72c405a95a"
-            ]
-        ]
-    },
-    {
-        "id": "438c245f6ea34abd",
-        "type": "subflow:7c5bfbda03d459cf",
-        "z": "d72f43198c705066",
-        "g": "b0b8253b86e18e62",
-        "name": "",
-        "x": 720,
-        "y": 200,
-        "wires": [
-            [
-                "9c6baaebd82bca4f",
-                "5b67066fba88c525"
-            ]
-        ]
-    },
-    {
         "id": "facc5290091e0f84",
         "type": "debug",
         "z": "d72f43198c705066",
@@ -2808,8 +2522,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1200,
-        "y": 220,
+        "x": 1240,
+        "y": 260,
         "wires": [
             [
                 "7b8f521ae0d6358a"
@@ -2837,8 +2551,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1210,
-        "y": 280,
+        "x": 1250,
+        "y": 320,
         "wires": [
             [
                 "2f4a1cb465832b29"
@@ -2932,8 +2646,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1970,
-        "y": 220,
+        "x": 2010,
+        "y": 260,
         "wires": []
     },
     {
@@ -2950,51 +2664,9 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1980,
-        "y": 280,
+        "x": 2020,
+        "y": 320,
         "wires": []
-    },
-    {
-        "id": "b090c63340fa938c",
-        "type": "subflow:ceabba86172c98e2",
-        "z": "d72f43198c705066",
-        "g": "5465b2787eb8e18e",
-        "name": "",
-        "x": 1720,
-        "y": 220,
-        "wires": [
-            [
-                "69f267b31024eb69"
-            ]
-        ]
-    },
-    {
-        "id": "2ec972b30db3e1dc",
-        "type": "subflow:ceabba86172c98e2",
-        "z": "d72f43198c705066",
-        "g": "5465b2787eb8e18e",
-        "name": "",
-        "x": 1720,
-        "y": 280,
-        "wires": [
-            [
-                "7105b300066ef03e"
-            ]
-        ]
-    },
-    {
-        "id": "8f3e377ea4109a19",
-        "type": "subflow:2ebf49d74dc84b04",
-        "z": "d72f43198c705066",
-        "g": "b1f146f680e8459a",
-        "name": "",
-        "x": 1130,
-        "y": 620,
-        "wires": [
-            [
-                "6193e488481f037b"
-            ]
-        ]
     },
     {
         "id": "7b8f521ae0d6358a",
@@ -3003,8 +2675,8 @@
         "g": "5465b2787eb8e18e",
         "name": "BS-S2",
         "serial": "488efe6f06074f88",
-        "x": 1410,
-        "y": 220,
+        "x": 1450,
+        "y": 260,
         "wires": [
             [
                 "bf27825b23c8f994"
@@ -3018,8 +2690,8 @@
         "g": "5465b2787eb8e18e",
         "name": "BS-S2",
         "serial": "488efe6f06074f88",
-        "x": 1410,
-        "y": 280,
+        "x": 1450,
+        "y": 320,
         "wires": [
             [
                 "04a25e6f8df7f216"
@@ -3120,8 +2792,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1200,
-        "y": 80,
+        "x": 1240,
+        "y": 120,
         "wires": [
             [
                 "e8d857d1258c652a"
@@ -3149,8 +2821,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 1210,
-        "y": 140,
+        "x": 1250,
+        "y": 180,
         "wires": [
             [
                 "8bdbd8a7100509f3"
@@ -3164,8 +2836,8 @@
         "g": "5465b2787eb8e18e",
         "name": "BK-S3",
         "serial": "65eee66c.c52a98",
-        "x": 1410,
-        "y": 80,
+        "x": 1450,
+        "y": 120,
         "wires": [
             [
                 "d729bc078fa3accd"
@@ -3179,8 +2851,8 @@
         "g": "5465b2787eb8e18e",
         "name": "BK-S3",
         "serial": "65eee66c.c52a98",
-        "x": 1410,
-        "y": 140,
+        "x": 1450,
+        "y": 180,
         "wires": [
             [
                 "6d94b13e3a7b924c"
@@ -3247,48 +2919,6 @@
         ]
     },
     {
-        "id": "9b582966d27951f4",
-        "type": "subflow:2ebf49d74dc84b04",
-        "z": "d72f43198c705066",
-        "g": "b1f146f680e8459a",
-        "name": "",
-        "x": 1130,
-        "y": 480,
-        "wires": [
-            [
-                "38b3ab609bb741ee"
-            ]
-        ]
-    },
-    {
-        "id": "32038845a818536b",
-        "type": "subflow:7c5bfbda03d459cf",
-        "z": "d72f43198c705066",
-        "g": "5465b2787eb8e18e",
-        "name": "",
-        "x": 1720,
-        "y": 80,
-        "wires": [
-            [
-                "91e16b60c6bc0bbc"
-            ]
-        ]
-    },
-    {
-        "id": "c7f0248feb6628e0",
-        "type": "subflow:7c5bfbda03d459cf",
-        "z": "d72f43198c705066",
-        "g": "5465b2787eb8e18e",
-        "name": "",
-        "x": 1720,
-        "y": 140,
-        "wires": [
-            [
-                "aba3398a30a292e1"
-            ]
-        ]
-    },
-    {
         "id": "91e16b60c6bc0bbc",
         "type": "ui_text",
         "z": "d72f43198c705066",
@@ -3302,8 +2932,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1980,
-        "y": 80,
+        "x": 2020,
+        "y": 120,
         "wires": []
     },
     {
@@ -3320,8 +2950,8 @@
         "format": "{{msg.payload}}",
         "layout": "row-spread",
         "className": "",
-        "x": 1990,
-        "y": 140,
+        "x": 2030,
+        "y": 180,
         "wires": []
     },
     {
@@ -3691,7 +3321,7 @@
         "wires": [
             [
                 "ecd69d2ac553a8ec",
-                "9828cdd453335580"
+                "a5037f2be98a93d2"
             ]
         ]
     },
@@ -3757,7 +3387,7 @@
         "z": "d72f43198c705066",
         "g": "45cd473ec394c607",
         "name": "Coerce 12",
-        "func": "var output = msg.payload;\n\noutput = parseFloat(output);\n\nif (output > 12) {\n    output = 12\n} else if (output < 1) {\n    output = 0\n}\n\nmsg.payload=output;\n\nreturn msg;",
+        "func": "var output = msg.payload;\n\noutput = parseFloat(output);\n\nif (output > 12) {\n    output = 12\n} \n\nmsg.payload=output;\n\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -3769,7 +3399,7 @@
         "wires": [
             [
                 "e41478f52e6efff0",
-                "d9a93feb616a39a0"
+                "af901a8851763f37"
             ]
         ]
     },
@@ -3840,21 +3470,6 @@
         ]
     },
     {
-        "id": "47d633fe976d1f30",
-        "type": "subflow:7c5bfbda03d459cf",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "",
-        "x": 1630,
-        "y": 880,
-        "wires": [
-            [
-                "8da95455fa4ae50a",
-                "b511530f5e221ce3"
-            ]
-        ]
-    },
-    {
         "id": "033b1cf11ddc2690",
         "type": "ui_text",
         "z": "d72f43198c705066",
@@ -3888,21 +3503,6 @@
         ]
     },
     {
-        "id": "49098eca9d5c5eca",
-        "type": "subflow:ceabba86172c98e2",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "",
-        "x": 1640,
-        "y": 1080,
-        "wires": [
-            [
-                "033b1cf11ddc2690",
-                "47ee6bd1edfd799c"
-            ]
-        ]
-    },
-    {
         "id": "bd8b3b43e3acfefd",
         "type": "function",
         "z": "d72f43198c705066",
@@ -3919,20 +3519,6 @@
         "wires": [
             [
                 "fe92b6c2ed733d5b"
-            ]
-        ]
-    },
-    {
-        "id": "d9a93feb616a39a0",
-        "type": "subflow:8c760ef285f664c1",
-        "z": "d72f43198c705066",
-        "g": "45cd473ec394c607",
-        "name": "",
-        "x": 770,
-        "y": 1080,
-        "wires": [
-            [
-                "80f195d4c7ce7096"
             ]
         ]
     },
@@ -4781,7 +4367,7 @@
         "y": 300,
         "wires": [
             [
-                "aeb9bbbc3d35801b"
+                "a1311eb52c718fe4"
             ]
         ],
         "l": false
@@ -4808,7 +4394,7 @@
         "y": 200,
         "wires": [
             [
-                "438c245f6ea34abd"
+                "647664e6d6055726"
             ]
         ],
         "l": false
@@ -4835,7 +4421,7 @@
         "y": 480,
         "wires": [
             [
-                "9b582966d27951f4"
+                "1e687d436eb7ee8a"
             ]
         ],
         "l": false
@@ -4862,7 +4448,7 @@
         "y": 620,
         "wires": [
             [
-                "8f3e377ea4109a19"
+                "99b60d3f3d871fbd"
             ]
         ],
         "l": false
@@ -4939,11 +4525,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1495,
-        "y": 280,
+        "x": 1535,
+        "y": 320,
         "wires": [
             [
-                "2ec972b30db3e1dc"
+                "8d83a25c6ab39bea"
             ]
         ],
         "l": false
@@ -4966,11 +4552,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1495,
-        "y": 220,
+        "x": 1535,
+        "y": 260,
         "wires": [
             [
-                "b090c63340fa938c"
+                "9c7ba0031374213e"
             ]
         ],
         "l": false
@@ -4993,11 +4579,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1495,
-        "y": 140,
+        "x": 1535,
+        "y": 180,
         "wires": [
             [
-                "c7f0248feb6628e0"
+                "244ba16ef9533f83"
             ]
         ],
         "l": false
@@ -5020,11 +4606,11 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1495,
-        "y": 80,
+        "x": 1535,
+        "y": 120,
         "wires": [
             [
-                "32038845a818536b"
+                "4484eb6968865d10"
             ]
         ],
         "l": false
@@ -5051,7 +4637,7 @@
         "y": 1080,
         "wires": [
             [
-                "49098eca9d5c5eca"
+                "db5b7ff585399b8b"
             ]
         ],
         "l": false
@@ -5078,7 +4664,7 @@
         "y": 880,
         "wires": [
             [
-                "47d633fe976d1f30"
+                "90ad6a7c40a365e9"
             ]
         ],
         "l": false
@@ -5606,16 +5192,258 @@
         "l": false
     },
     {
-        "id": "9828cdd453335580",
-        "type": "subflow:4b16d557cb3dbbdc",
+        "id": "647664e6d6055726",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "b0b8253b86e18e62",
+        "name": "BK-ELPRESS Meas 2 Press",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*1500/32000).toFixed(2);\n\nmsg.payload = floatv;\n\nreturn  msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 200,
+        "wires": [
+            [
+                "9c6baaebd82bca4f",
+                "5b67066fba88c525"
+            ]
+        ]
+    },
+    {
+        "id": "a1311eb52c718fe4",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "b0b8253b86e18e62",
+        "name": "BK-ELFLOW Meas 2 Flow",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*10/32000).toFixed(2);\n\nmsg.payload = floatv;\n\nreturn  msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 300,
+        "wires": [
+            [
+                "59ac57e511c91223",
+                "0245dd72c405a95a"
+            ]
+        ]
+    },
+    {
+        "id": "1e687d436eb7ee8a",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "b1f146f680e8459a",
+        "name": "BK-ControlMode",
+        "func": "//var output = msg.payload.split(\"\\t\");\nlet instr = msg.payload;\nlet ininfo = instr.substr(13,1);\nlet dec = parseInt(ininfo);\n\nif(dec == 0){\n    dec = true;\n    \n}else{\n    dec = false;  \n}\n\nmsg.payload = dec;\n//var msg2 = {payload : ininfo};\n\nreturn msg;\n//return [msg1, msg2];",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 480,
+        "wires": [
+            [
+                "38b3ab609bb741ee"
+            ]
+        ]
+    },
+    {
+        "id": "99b60d3f3d871fbd",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "b1f146f680e8459a",
+        "name": "BK-ControlMode",
+        "func": "//var output = msg.payload.split(\"\\t\");\nlet instr = msg.payload;\nlet ininfo = instr.substr(13,1);\nlet dec = parseInt(ininfo);\n\nif(dec == 0){\n    dec = true;    \n}else{\n    dec = false;    \n}\n\nmsg.payload = dec;\n//var msg2 = {payload : ininfo};\n\nreturn msg1;\n//return [msg1, msg2];",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 620,
+        "wires": [
+            [
+                "6193e488481f037b"
+            ]
+        ]
+    },
+    {
+        "id": "4484eb6968865d10",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "5465b2787eb8e18e",
+        "name": "BK-ELPRESS Meas 2 Press",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*1500/32000).toFixed(2);\n\nmsg.payload = floatv;\n\nreturn  msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 120,
+        "wires": [
+            [
+                "91e16b60c6bc0bbc"
+            ]
+        ]
+    },
+    {
+        "id": "244ba16ef9533f83",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "5465b2787eb8e18e",
+        "name": "BK-ELPRESS Meas 2 Press",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*1500/32000).toFixed(2);\n\nmsg.payload = floatv;\n\nreturn  msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 180,
+        "wires": [
+            [
+                "aba3398a30a292e1"
+            ]
+        ]
+    },
+    {
+        "id": "9c7ba0031374213e",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "5465b2787eb8e18e",
+        "name": "BK-ELFLOW Meas 2 Flow",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*10/32000).toFixed(2);\n\nmsg.payload = floatv;\n\n\nreturn  msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 260,
+        "wires": [
+            [
+                "69f267b31024eb69"
+            ]
+        ]
+    },
+    {
+        "id": "8d83a25c6ab39bea",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "5465b2787eb8e18e",
+        "name": "BK-ELFLOW Meas 2 Flow",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*10/32000).toFixed(2);\n\nmsg.payload = floatv;\n\nreturn  msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 320,
+        "wires": [
+            [
+                "7105b300066ef03e"
+            ]
+        ]
+    },
+    {
+        "id": "a5037f2be98a93d2",
+        "type": "function",
         "z": "d72f43198c705066",
         "g": "45cd473ec394c607",
-        "name": "",
+        "name": "BK-ELPRESS Press 2 Meas ",
+        "func": "let output = parseInt(msg.payload); //parseInt(msg.payload);\nlet hexword;\nlet hexString;\n\n\nhexword = Math.round(output * 32000 / 1500);\nhexString = hexword.toString(16); //String in Hex\nhexString = hexString.padStart(4,\"0\") // Format string for small values\n\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nmsg.payload = str2;\n\nreturn [msg];",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
         "x": 760,
         "y": 880,
         "wires": [
             [
                 "1c11507305515760"
+            ]
+        ]
+    },
+    {
+        "id": "af901a8851763f37",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "45cd473ec394c607",
+        "name": "BK-ELFLOW Flow 2 Meas ",
+        "func": "let output =parseFloat(msg.payload); // parseInt(msg.payload);\nlet hexword;\nlet hexString;\n\n\nhexword = Math.round(output*32000/10);\nhexString = hexword.toString(16); //String in Hex\nhexString = hexString.padStart(4,\"0\") // Format string for small values\n\nconst str1 = ':0603010121';\nconst str2 = str1.concat(hexString);\n\nmsg.payload = str2;\n\nreturn [msg];\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1080,
+        "wires": [
+            [
+                "80f195d4c7ce7096"
+            ]
+        ]
+    },
+    {
+        "id": "90ad6a7c40a365e9",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "45cd473ec394c607",
+        "name": "BK-ELPRESS Meas 2 Press",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*1500/32000).toFixed(2);\n\nmsg.payload = floatv;\n\nreturn  msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1640,
+        "y": 880,
+        "wires": [
+            [
+                "8da95455fa4ae50a",
+                "b511530f5e221ce3"
+            ]
+        ]
+    },
+    {
+        "id": "db5b7ff585399b8b",
+        "type": "function",
+        "z": "d72f43198c705066",
+        "g": "45cd473ec394c607",
+        "name": "BK-ELFLOW Meas 2 Flow",
+        "func": "let filtertext = msg.payload.trim();\nlet instr = filtertext;\nlet ininfo = instr.substr(11,4);\nlet dec = parseInt(ininfo, 16);\nlet floatv = (dec*10/32000).toFixed(2);\n\nmsg.payload = floatv;\n\nreturn  msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1640,
+        "y": 1080,
+        "wires": [
+            [
+                "47ee6bd1edfd799c",
+                "033b1cf11ddc2690"
             ]
         ]
     },
@@ -5642,7 +5470,7 @@
         "payload": "0010MV00D",
         "payloadType": "str",
         "x": 220,
-        "y": 180,
+        "y": 140,
         "wires": [
             [
                 "36fd090493e29f93",
@@ -5658,29 +5486,10 @@
         "name": "THY-S1",
         "serial": "c20705c78add4417",
         "x": 420,
-        "y": 140,
+        "y": 100,
         "wires": [
             [
                 "25adf8931ee348a7"
-            ]
-        ]
-    },
-    {
-        "id": "64ec612ddd21e4cd",
-        "type": "subflow:2af719fb2fc809d7",
-        "z": "732d4141e04e5e35",
-        "g": "e1f43c1f5556e7e3",
-        "name": "",
-        "x": 850,
-        "y": 180,
-        "wires": [
-            [
-                "46a090a54f64e001",
-                "5efd8e76c04f0d1f"
-            ],
-            [
-                "29580ea305f6b5f0",
-                "099ec00258900658"
             ]
         ]
     },
@@ -5692,104 +5501,12 @@
         "name": "THY-S4",
         "serial": "3cb07f3e2ef650dc",
         "x": 420,
-        "y": 240,
+        "y": 200,
         "wires": [
             [
                 "c839a8a03959c8d4"
             ]
         ]
-    },
-    {
-        "id": "b723f97cf7b2153b",
-        "type": "debug",
-        "z": "732d4141e04e5e35",
-        "g": "e1f43c1f5556e7e3",
-        "name": "debug 20",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 800,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "09ade00e68ba62d6",
-        "type": "change",
-        "z": "732d4141e04e5e35",
-        "g": "e1f43c1f5556e7e3",
-        "name": "S4 TOPIC",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "S4",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 630,
-        "y": 220,
-        "wires": [
-            [
-                "b723f97cf7b2153b",
-                "64ec612ddd21e4cd"
-            ]
-        ]
-    },
-    {
-        "id": "6a09f329e0035bc2",
-        "type": "change",
-        "z": "732d4141e04e5e35",
-        "g": "e1f43c1f5556e7e3",
-        "name": "S1 TOPIC",
-        "rules": [
-            {
-                "t": "set",
-                "p": "topic",
-                "pt": "msg",
-                "to": "S1",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 630,
-        "y": 160,
-        "wires": [
-            [
-                "64ec612ddd21e4cd",
-                "90b1af0637b3c142"
-            ]
-        ]
-    },
-    {
-        "id": "90b1af0637b3c142",
-        "type": "debug",
-        "z": "732d4141e04e5e35",
-        "g": "e1f43c1f5556e7e3",
-        "name": "debug 24",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 780,
-        "y": 140,
-        "wires": []
     },
     {
         "id": "46a090a54f64e001",
@@ -5809,8 +5526,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1110,
-        "y": 120,
+        "x": 990,
+        "y": 100,
         "wires": []
     },
     {
@@ -5831,8 +5548,8 @@
         "font": "",
         "fontSize": 16,
         "color": "#000000",
-        "x": 1110,
-        "y": 240,
+        "x": 990,
+        "y": 200,
         "wires": []
     },
     {
@@ -5845,8 +5562,8 @@
         "links": [
             "bb78f96ec795a336"
         ],
-        "x": 1055,
-        "y": 160,
+        "x": 945,
+        "y": 140,
         "wires": []
     },
     {
@@ -5857,11 +5574,10 @@
         "name": "DB_S4_MV",
         "mode": "link",
         "links": [
-            "3c5068ce71a8bc46",
-            "583508315087a3bf"
+            "3c5068ce71a8bc46"
         ],
-        "x": 1055,
-        "y": 200,
+        "x": 945,
+        "y": 240,
         "wires": []
     },
     {
@@ -6263,10 +5979,10 @@
         "repair": false,
         "outputs": 1,
         "x": 515,
-        "y": 140,
+        "y": 100,
         "wires": [
             [
-                "6a09f329e0035bc2"
+                "573014efad1c1bf9"
             ]
         ],
         "l": false
@@ -6290,10 +6006,11 @@
         "repair": false,
         "outputs": 1,
         "x": 505,
-        "y": 240,
+        "y": 200,
         "wires": [
             [
-                "09ade00e68ba62d6"
+                "b43f00a326c722f2",
+                "40de900cd31b8a90"
             ]
         ],
         "l": false
@@ -6385,6 +6102,85 @@
                 "d265691face9de78"
             ]
         ]
+    },
+    {
+        "id": "b43f00a326c722f2",
+        "type": "function",
+        "z": "732d4141e04e5e35",
+        "g": "e1f43c1f5556e7e3",
+        "name": "TH-USB Meas 2 Pres",
+        "func": "let instr = msg.payload;\n\n// Extraer número del string\nlet ininfo0 = instr.substr(7);\nlet inilen = ininfo0.length;\nlet ininfo = ininfo0.substr(1, inilen - 3);\nlet num = Number(ininfo);\n\n// Formatear si es menor a 1\nif (num < 1) {\n    //num = num.toLocaleString('en-US', fmt);\n    num = num.toExponential(3);\n}\n\nmsg.payload = num;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 200,
+        "wires": [
+            [
+                "29580ea305f6b5f0",
+                "099ec00258900658",
+                "7800d2bcf33f6d02"
+            ]
+        ]
+    },
+    {
+        "id": "573014efad1c1bf9",
+        "type": "function",
+        "z": "732d4141e04e5e35",
+        "g": "e1f43c1f5556e7e3",
+        "name": "TH-USB Meas 2 Pres",
+        "func": "let instr = msg.payload;\n\n\n// Extraer número del string\nlet ininfo0 = instr.substr(7);\nlet inilen = ininfo0.length;\nlet ininfo = ininfo0.substr(1, inilen - 3);\nlet num = Number(ininfo);\n\n// Formatear si es menor a 1\nif (num < 1) {\n    //num = num.toLocaleString('en-US', fmt);\n    num = num.toExponential(3);\n}\n\nmsg.payload = num;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 100,
+        "wires": [
+            [
+                "46a090a54f64e001",
+                "5efd8e76c04f0d1f"
+            ]
+        ]
+    },
+    {
+        "id": "40de900cd31b8a90",
+        "type": "debug",
+        "z": "732d4141e04e5e35",
+        "g": "e1f43c1f5556e7e3",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7800d2bcf33f6d02",
+        "type": "debug",
+        "z": "732d4141e04e5e35",
+        "g": "e1f43c1f5556e7e3",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 980,
+        "y": 280,
+        "wires": []
     },
     {
         "id": "9ba2e3662c0d653e",
