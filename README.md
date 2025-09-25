@@ -61,7 +61,14 @@ To avoid memory leaks it is important to avoid errors in the code. In serial por
 ## USB Configuration
 The serialport configuration is included in `/etc/udev/rules.d/99-sub-serial.rules
 
-For information on the serial ports  `devadm info --name=/dev/<device>`
+For information on the serial ports  `udevadm info --name=/dev/<device>`
+
+For reloading the rules:
+
+```
+	sudo udevadm control --reload-rules
+  	sudo udevadm trigger
+```
 
 ## Credentials
 Credentials are set in `settings.js`.

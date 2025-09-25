@@ -1278,12 +1278,13 @@
             "a9432c1df14cc5c5",
             "6d5ae9858abc4d82",
             "bfece3bfdbb9afc3",
-            "2731060c2f215a1f"
+            "2731060c2f215a1f",
+            "40307daeed3932d5"
         ],
         "x": 114,
         "y": 2039,
         "w": 1332,
-        "h": 602
+        "h": 928
     },
     {
         "id": "734a5d56201614fe",
@@ -1339,8 +1340,8 @@
             "aa4f06f9acf1914e",
             "6c4ce39cbcca9841"
         ],
-        "x": 134,
-        "y": 2679,
+        "x": 114,
+        "y": 3039,
         "w": 1492,
         "h": 562
     },
@@ -1517,12 +1518,13 @@
             "9b8e7e23a08954f1",
             "518abb56fe4cb6aa",
             "7c4ded4c5077c272",
-            "547d976536f3910a"
+            "547d976536f3910a",
+            "c9bcb7291c22896b"
         ],
         "x": 1694,
         "y": 2079,
         "w": 1412,
-        "h": 602
+        "h": 908
     },
     {
         "id": "3afdcbb83fb506dc",
@@ -1554,8 +1556,8 @@
             "72413270281f530c",
             "66ecb16882a97740"
         ],
-        "x": 1674,
-        "y": 2719,
+        "x": 1694,
+        "y": 3039,
         "w": 1412,
         "h": 562
     },
@@ -1595,6 +1597,68 @@
         "y": 1319,
         "w": 882,
         "h": 382
+    },
+    {
+        "id": "40307daeed3932d5",
+        "type": "group",
+        "z": "dbbc30b9f0aa1118",
+        "g": "b7d565f8c1d444b8",
+        "name": "IMRANGE Ch0 (Manual Setting)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "86f0b0f4da3ac971",
+            "82e5a3941e8df593",
+            "607e79a96f5cdedd",
+            "ca8b409357483459",
+            "2548f4fcd97324bc",
+            "0e60e4a1e2fd6fa6",
+            "349257799412ce68",
+            "9c58e3c8289238dc",
+            "665ea9d55145939b",
+            "8b100432d25432eb",
+            "2df61e178935209f",
+            "ee67d1ce5b8fbf12",
+            "03b4bf4f0cb0f859",
+            "621ca866d6a87477",
+            "b79f074f3b9098a8"
+        ],
+        "x": 154,
+        "y": 2699,
+        "w": 1112,
+        "h": 242
+    },
+    {
+        "id": "c9bcb7291c22896b",
+        "type": "group",
+        "z": "dbbc30b9f0aa1118",
+        "g": "e587a3b0695cfa81",
+        "name": "IMRANGE Ch1 (Manual Setting)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "16b75a273fc7a404",
+            "95bb1470c4150ab5",
+            "aa6b262c75e2c99b",
+            "4176d5487a358b98",
+            "4897334bbe3acb09",
+            "802e351490ae8918",
+            "590751d37e0dac85",
+            "fe808e0ab317a51d",
+            "04f59e4416125839",
+            "79227a7f9c8d59f7",
+            "18cb75fb7b427ab8",
+            "8a7779db920d183c",
+            "4009dd1727edde37",
+            "7fdb598eb7575fba",
+            "490572a65b25b5d2"
+        ],
+        "x": 1774,
+        "y": 2719,
+        "w": 1112,
+        "h": 242
     },
     {
         "id": "0f184659aec5254c",
@@ -7216,8 +7280,8 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 740,
-        "y": 600,
+        "x": 760,
+        "y": 580,
         "wires": []
     },
     {
@@ -7269,8 +7333,8 @@
         "targetType": "jsonata",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1580,
-        "y": 600,
+        "x": 1620,
+        "y": 580,
         "wires": []
     },
     {
@@ -7398,8 +7462,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 800,
-        "y": 560,
+        "x": 820,
+        "y": 540,
         "wires": [
             []
         ]
@@ -7449,8 +7513,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 685,
-        "y": 560,
+        "x": 705,
+        "y": 540,
         "wires": [
             [
                 "bfe2ddb1d1f8f565"
@@ -7505,7 +7569,7 @@
         "to": "",
         "reg": false,
         "x": 1680,
-        "y": 560,
+        "y": 540,
         "wires": [
             []
         ]
@@ -7555,8 +7619,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1525,
-        "y": 560,
+        "x": 1565,
+        "y": 540,
         "wires": [
             [
                 "73552d1f6c5d042b"
@@ -8992,8 +9056,8 @@
         "g": "c1c3e686be456b09",
         "name": "",
         "serial": "a4fc396f.153838",
-        "x": 760,
-        "y": 2900,
+        "x": 740,
+        "y": 3260,
         "wires": [
             [
                 "016f8b990bd507cf"
@@ -9013,8 +9077,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 2900,
+        "x": 370,
+        "y": 3260,
         "wires": [
             [
                 "6c8bf4a0c77391bc"
@@ -9034,8 +9098,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1180,
-        "y": 2960,
+        "x": 1160,
+        "y": 3320,
         "wires": [
             [
                 "3c77a825f8f2930e"
@@ -10592,8 +10656,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 895,
-        "y": 2900,
+        "x": 875,
+        "y": 3260,
         "wires": [
             [
                 "ddb9380974242626"
@@ -11007,8 +11071,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 625,
-        "y": 2900,
+        "x": 605,
+        "y": 3260,
         "wires": [
             [
                 "6b987775d797c1c1"
@@ -11736,8 +11800,8 @@
         "topic": "",
         "payload": "::",
         "payloadType": "str",
-        "x": 230,
-        "y": 2900,
+        "x": 210,
+        "y": 3260,
         "wires": [
             [
                 "00342538a0391504"
@@ -11969,8 +12033,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 990,
-        "y": 2900,
+        "x": 970,
+        "y": 3260,
         "wires": [
             [
                 "32c3948157f41c96"
@@ -14322,8 +14386,8 @@
         "g": "3afdcbb83fb506dc",
         "name": "",
         "serial": "a4fc396f.153838",
-        "x": 2300,
-        "y": 2940,
+        "x": 2320,
+        "y": 3260,
         "wires": [
             [
                 "5d1ca7822692c8ba"
@@ -14343,8 +14407,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1930,
-        "y": 2940,
+        "x": 1950,
+        "y": 3260,
         "wires": [
             [
                 "ce3913d78abe610e"
@@ -14364,8 +14428,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2700,
-        "y": 2960,
+        "x": 2720,
+        "y": 3280,
         "wires": [
             [
                 "d09a042b0be55184"
@@ -14426,8 +14490,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2435,
-        "y": 2940,
+        "x": 2455,
+        "y": 3260,
         "wires": [
             [
                 "537b9c23c3848bbf"
@@ -14453,8 +14517,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 2165,
-        "y": 2940,
+        "x": 2185,
+        "y": 3260,
         "wires": [
             [
                 "7b45977c53443461"
@@ -14484,8 +14548,8 @@
         "topic": "",
         "payload": "::",
         "payloadType": "str",
-        "x": 1770,
-        "y": 2940,
+        "x": 1790,
+        "y": 3260,
         "wires": [
             [
                 "13eb6d36adb8900b"
@@ -14505,8 +14569,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2530,
-        "y": 2940,
+        "x": 2550,
+        "y": 3260,
         "wires": [
             [
                 "dd358b45601c4f88"
@@ -14879,8 +14943,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Channel ON",
-        "x": 1450,
-        "y": 2720,
+        "x": 1430,
+        "y": 3080,
         "wires": []
     },
     {
@@ -14912,8 +14976,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Ramp Up",
-        "x": 1440,
-        "y": 2760,
+        "x": 1420,
+        "y": 3120,
         "wires": []
     },
     {
@@ -14945,8 +15009,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Ramp Down",
-        "x": 1450,
-        "y": 2800,
+        "x": 1430,
+        "y": 3160,
         "wires": []
     },
     {
@@ -14954,7 +15018,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 21,
+        "order": 22,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -14978,8 +15042,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "OverCurrent",
-        "x": 1450,
-        "y": 2840,
+        "x": 1430,
+        "y": 3200,
         "wires": []
     },
     {
@@ -14987,7 +15051,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 22,
+        "order": 23,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15011,8 +15075,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "OverVoltage",
-        "x": 1450,
-        "y": 2880,
+        "x": 1430,
+        "y": 3240,
         "wires": []
     },
     {
@@ -15020,7 +15084,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 23,
+        "order": 24,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15044,8 +15108,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "UnderVoltage",
-        "x": 1460,
-        "y": 2920,
+        "x": 1440,
+        "y": 3280,
         "wires": []
     },
     {
@@ -15053,7 +15117,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 24,
+        "order": 25,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15077,8 +15141,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "VMax Limitting",
-        "x": 1460,
-        "y": 2960,
+        "x": 1440,
+        "y": 3320,
         "wires": []
     },
     {
@@ -15086,7 +15150,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 25,
+        "order": 26,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15110,8 +15174,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Current Trip",
-        "x": 1450,
-        "y": 3000,
+        "x": 1430,
+        "y": 3360,
         "wires": []
     },
     {
@@ -15119,7 +15183,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 26,
+        "order": 27,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15143,8 +15207,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "OverPower",
-        "x": 1450,
-        "y": 3040,
+        "x": 1430,
+        "y": 3400,
         "wires": []
     },
     {
@@ -15152,7 +15216,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 27,
+        "order": 28,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15176,8 +15240,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "T. Warn (>80º)",
-        "x": 1460,
-        "y": 3080,
+        "x": 1440,
+        "y": 3440,
         "wires": []
     },
     {
@@ -15185,7 +15249,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 28,
+        "order": 29,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15209,8 +15273,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Temperature Fault (>125º)",
-        "x": 1490,
-        "y": 3120,
+        "x": 1470,
+        "y": 3480,
         "wires": []
     },
     {
@@ -15218,7 +15282,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 29,
+        "order": 30,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15242,8 +15306,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Front KILL",
-        "x": 1450,
-        "y": 3160,
+        "x": 1430,
+        "y": 3520,
         "wires": []
     },
     {
@@ -15251,7 +15315,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "c1c3e686be456b09",
-        "order": 30,
+        "order": 31,
         "group": "a611b3b4.f109b",
         "width": "3",
         "height": "1",
@@ -15275,8 +15339,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Front ILOCK",
-        "x": 1450,
-        "y": 3200,
+        "x": 1430,
+        "y": 3560,
         "wires": []
     },
     {
@@ -15308,8 +15372,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Channel ON",
-        "x": 2970,
-        "y": 2760,
+        "x": 2990,
+        "y": 3080,
         "wires": []
     },
     {
@@ -15341,8 +15405,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Ramp Up",
-        "x": 2960,
-        "y": 2800,
+        "x": 2980,
+        "y": 3120,
         "wires": []
     },
     {
@@ -15374,8 +15438,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Ramp Down",
-        "x": 2970,
-        "y": 2840,
+        "x": 2990,
+        "y": 3160,
         "wires": []
     },
     {
@@ -15383,7 +15447,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 21,
+        "order": 22,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15407,8 +15471,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "OverCurrent",
-        "x": 2970,
-        "y": 2880,
+        "x": 2990,
+        "y": 3200,
         "wires": []
     },
     {
@@ -15416,7 +15480,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 22,
+        "order": 23,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15440,8 +15504,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "OverVoltage",
-        "x": 2970,
-        "y": 2920,
+        "x": 2990,
+        "y": 3240,
         "wires": []
     },
     {
@@ -15449,7 +15513,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 23,
+        "order": 24,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15473,8 +15537,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "UnderVoltage",
-        "x": 2980,
-        "y": 2960,
+        "x": 3000,
+        "y": 3280,
         "wires": []
     },
     {
@@ -15482,7 +15546,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 24,
+        "order": 25,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15506,8 +15570,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "VMax Limitting",
-        "x": 2980,
-        "y": 3000,
+        "x": 3000,
+        "y": 3320,
         "wires": []
     },
     {
@@ -15515,7 +15579,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 25,
+        "order": 26,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15539,8 +15603,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Current Trip",
-        "x": 2970,
-        "y": 3040,
+        "x": 2990,
+        "y": 3360,
         "wires": []
     },
     {
@@ -15548,7 +15612,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 26,
+        "order": 27,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15572,8 +15636,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "OverPower",
-        "x": 2970,
-        "y": 3080,
+        "x": 2990,
+        "y": 3400,
         "wires": []
     },
     {
@@ -15581,7 +15645,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 27,
+        "order": 28,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15605,8 +15669,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "T. Warn (>80º)",
-        "x": 2980,
-        "y": 3120,
+        "x": 3000,
+        "y": 3440,
         "wires": []
     },
     {
@@ -15614,7 +15678,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 28,
+        "order": 29,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15638,8 +15702,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "T. Fault (>125º)",
-        "x": 2980,
-        "y": 3160,
+        "x": 3000,
+        "y": 3480,
         "wires": []
     },
     {
@@ -15647,7 +15711,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 29,
+        "order": 30,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15671,8 +15735,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Front KILL",
-        "x": 2970,
-        "y": 3200,
+        "x": 2990,
+        "y": 3520,
         "wires": []
     },
     {
@@ -15680,7 +15744,7 @@
         "type": "ui_led2",
         "z": "dbbc30b9f0aa1118",
         "g": "3afdcbb83fb506dc",
-        "order": 30,
+        "order": 31,
         "group": "c439a095b5188232",
         "width": "3",
         "height": "1",
@@ -15704,8 +15768,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Front ILOCK",
-        "x": 2970,
-        "y": 3240,
+        "x": 2990,
+        "y": 3560,
         "wires": []
     },
     {
@@ -16036,6 +16100,706 @@
         "name": "FILOCK",
         "x": 2800,
         "y": 760,
+        "wires": []
+    },
+    {
+        "id": "86f0b0f4da3ac971",
+        "type": "function",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "PAR:IMRANGE",
+        "func": "msg = {payload : \"$CMD:MON,CH:0,PAR:IMRANGE\"};\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "1",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 2740,
+        "wires": [
+            [
+                "607e79a96f5cdedd"
+            ]
+        ]
+    },
+    {
+        "id": "82e5a3941e8df593",
+        "type": "inject",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "::",
+        "payloadType": "str",
+        "x": 250,
+        "y": 2740,
+        "wires": [
+            [
+                "86f0b0f4da3ac971"
+            ]
+        ]
+    },
+    {
+        "id": "607e79a96f5cdedd",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "global.CAENDT55211_st==1",
+        "property": "CAENDT55211_st",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 605,
+        "y": 2740,
+        "wires": [
+            [
+                "ca8b409357483459"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ca8b409357483459",
+        "type": "serial request",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "",
+        "serial": "a4fc396f.153838",
+        "x": 750,
+        "y": 2740,
+        "wires": [
+            [
+                "2548f4fcd97324bc"
+            ]
+        ]
+    },
+    {
+        "id": "2548f4fcd97324bc",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 885,
+        "y": 2740,
+        "wires": [
+            [
+                "0e60e4a1e2fd6fa6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "0e60e4a1e2fd6fa6",
+        "type": "function",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "read",
+        "func": "var rxstr = msg.payload.trim().replace(\";\",\"\").split(\",\");\nvar valstr = rxstr[1].split(\":\");\nvar val = valstr[1];\n\nmsg.payload=val;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 2740,
+        "wires": [
+            [
+                "349257799412ce68",
+                "b79f074f3b9098a8"
+            ]
+        ]
+    },
+    {
+        "id": "349257799412ce68",
+        "type": "debug",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "IMRANGE",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 2740,
+        "wires": []
+    },
+    {
+        "id": "9c58e3c8289238dc",
+        "type": "serial request",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "",
+        "serial": "a4fc396f.153838",
+        "x": 820,
+        "y": 2860,
+        "wires": [
+            [
+                "8b100432d25432eb"
+            ]
+        ]
+    },
+    {
+        "id": "665ea9d55145939b",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "global.CAENDT55211_st==1",
+        "property": "CAENDT55211_st",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 685,
+        "y": 2860,
+        "wires": [
+            [
+                "9c58e3c8289238dc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8b100432d25432eb",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 965,
+        "y": 2860,
+        "wires": [
+            [
+                "ee67d1ce5b8fbf12"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2df61e178935209f",
+        "type": "function",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "PAR:IMRANGE,VAL",
+        "func": "var output = msg.payload;\n\nvar mens = \"$CMD:SET,CH:0,PAR:IMRANGE,VAL:\"+output;\n\nmsg.payload = mens;\n\nreturn [msg];\n",
+        "outputs": 1,
+        "timeout": "1",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 2860,
+        "wires": [
+            [
+                "665ea9d55145939b"
+            ]
+        ]
+    },
+    {
+        "id": "ee67d1ce5b8fbf12",
+        "type": "debug",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "IMRANGE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "03b4bf4f0cb0f859",
+        "type": "inject",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "HIGH",
+        "payloadType": "str",
+        "x": 250,
+        "y": 2820,
+        "wires": [
+            [
+                "2df61e178935209f"
+            ]
+        ]
+    },
+    {
+        "id": "621ca866d6a87477",
+        "type": "inject",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "LOW",
+        "payloadType": "str",
+        "x": 250,
+        "y": 2900,
+        "wires": [
+            [
+                "2df61e178935209f"
+            ]
+        ]
+    },
+    {
+        "id": "16b75a273fc7a404",
+        "type": "function",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "PAR:IMRANGE",
+        "func": "msg = {payload : \"$CMD:MON,CH:1,PAR:IMRANGE\"};\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "1",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2040,
+        "y": 2760,
+        "wires": [
+            [
+                "aa6b262c75e2c99b"
+            ]
+        ]
+    },
+    {
+        "id": "95bb1470c4150ab5",
+        "type": "inject",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "::",
+        "payloadType": "str",
+        "x": 1870,
+        "y": 2760,
+        "wires": [
+            [
+                "16b75a273fc7a404"
+            ]
+        ]
+    },
+    {
+        "id": "aa6b262c75e2c99b",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "global.CAENDT55211_st==1",
+        "property": "CAENDT55211_st",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2225,
+        "y": 2760,
+        "wires": [
+            [
+                "4176d5487a358b98"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "4176d5487a358b98",
+        "type": "serial request",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "",
+        "serial": "a4fc396f.153838",
+        "x": 2370,
+        "y": 2760,
+        "wires": [
+            [
+                "4897334bbe3acb09"
+            ]
+        ]
+    },
+    {
+        "id": "4897334bbe3acb09",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2505,
+        "y": 2760,
+        "wires": [
+            [
+                "802e351490ae8918"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "802e351490ae8918",
+        "type": "function",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "read",
+        "func": "var rxstr = msg.payload.trim().replace(\";\",\"\").split(\",\");\nvar valstr = rxstr[1].split(\":\");\nvar val = valstr[1];\n\nmsg.payload=val;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2600,
+        "y": 2760,
+        "wires": [
+            [
+                "590751d37e0dac85",
+                "490572a65b25b5d2"
+            ]
+        ]
+    },
+    {
+        "id": "590751d37e0dac85",
+        "type": "debug",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "IMRANGE",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2770,
+        "y": 2760,
+        "wires": []
+    },
+    {
+        "id": "fe808e0ab317a51d",
+        "type": "serial request",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "",
+        "serial": "a4fc396f.153838",
+        "x": 2440,
+        "y": 2880,
+        "wires": [
+            [
+                "79227a7f9c8d59f7"
+            ]
+        ]
+    },
+    {
+        "id": "04f59e4416125839",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "global.CAENDT55211_st==1",
+        "property": "CAENDT55211_st",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2305,
+        "y": 2880,
+        "wires": [
+            [
+                "fe808e0ab317a51d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "79227a7f9c8d59f7",
+        "type": "switch",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "msg.status==OK",
+        "property": "status",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "OK",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 2585,
+        "y": 2880,
+        "wires": [
+            [
+                "8a7779db920d183c"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "18cb75fb7b427ab8",
+        "type": "function",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "PAR:IMRANGE,VAL",
+        "func": "var output = msg.payload;\n\nvar mens = \"$CMD:SET,CH:1,PAR:IMRANGE,VAL:\"+output;\n\nmsg.payload = mens;\n\nreturn [msg];\n",
+        "outputs": 1,
+        "timeout": "1",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2060,
+        "y": 2880,
+        "wires": [
+            [
+                "04f59e4416125839"
+            ]
+        ]
+    },
+    {
+        "id": "8a7779db920d183c",
+        "type": "debug",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "IMRANGE",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2730,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "4009dd1727edde37",
+        "type": "inject",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "HIGH",
+        "payloadType": "str",
+        "x": 1870,
+        "y": 2840,
+        "wires": [
+            [
+                "18cb75fb7b427ab8"
+            ]
+        ]
+    },
+    {
+        "id": "7fdb598eb7575fba",
+        "type": "inject",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "LOW",
+        "payloadType": "str",
+        "x": 1870,
+        "y": 2920,
+        "wires": [
+            [
+                "18cb75fb7b427ab8"
+            ]
+        ]
+    },
+    {
+        "id": "b79f074f3b9098a8",
+        "type": "ui_text",
+        "z": "dbbc30b9f0aa1118",
+        "g": "40307daeed3932d5",
+        "group": "a611b3b4.f109b",
+        "order": 21,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IMon Range",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 1150,
+        "y": 2780,
+        "wires": []
+    },
+    {
+        "id": "490572a65b25b5d2",
+        "type": "ui_text",
+        "z": "dbbc30b9f0aa1118",
+        "g": "c9bcb7291c22896b",
+        "group": "c439a095b5188232",
+        "order": 21,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "IMon Range",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 2770,
+        "y": 2800,
         "wires": []
     },
     {
@@ -19019,7 +19783,8 @@
         "g": "a4c6381da6e0a25c",
         "name": "DB_HVPS_Ch0_Vmon",
         "links": [
-            "e726d2a9f8e36e10"
+            "e726d2a9f8e36e10",
+            "616e3beb493fb5eb"
         ],
         "x": 1145,
         "y": 1480,

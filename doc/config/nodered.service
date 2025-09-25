@@ -1,0 +1,16 @@
+[Unit]
+Description=Node-RED for user iaxo
+After=network.target
+
+[Service]
+Type=simple
+User=iaxo
+WorkingDirectory=/home/iaxo
+ExecStart=/usr/bin/env node-red
+Restart=on-failure
+Environment=NODE_OPTIONS=--max_old_space_size=2048
+
+[Install]
+WantedBy=multi-user.target
+
+
