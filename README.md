@@ -66,7 +66,7 @@ In **Databases** (or in **join** nodes):
 
 
 ## USB Configuration
-The serialport configuration is included in `/etc/udev/rules.d/99-sub-serial.rules
+The serialport configuration is included in `/etc/udev/rules.d/99-usb-serial.rules
 
 For information on the serial ports  `udevadm info --name=/dev/<device>`
 
