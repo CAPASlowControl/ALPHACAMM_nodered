@@ -1,0 +1,17 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@flowfuse/node-red-dashboard": "~1.22.1",
+        "node-red-contrib-calc": "~1.0.6",
+        "node-red-contrib-postgresql": "~0.14.2",
+        "node-red-contrib-slack-files": "~0.1.2",
+        "node-red-contrib-state-machine": "~1.2.0",
+        "node-red-contrib-string": "~1.0.0",
+        "node-red-contrib-ui-led2": "~0.4.19",
+        "node-red-dashboard": "~3.6.5",
+        "node-red-node-serialport": "~2.0.3"
+    }
+}
